@@ -1,0 +1,67 @@
+# Unity generated files
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+/[Uu]nityGenerated/
+/[Uu]nityPackageManager/
+
+# Visual Studio / MonoDevelop / Rider
+[Ee]xported[Oo]bj/
+.vscode/
+.idea/
+*.sln
+*.csproj
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.suo
+
+# OS-specific files
+[Dd]esktop.ini
+[Dd]esktop.db
+[Dd]esktopop.ini
+[Th]umbs.db
+[Tt]humbs.db
+[Tt]rashes/
+.DS_Store
+*.tmp
+*.bak
+*.swp
+*~.nib
+*~.app
+
+# User-specific files
+*.user
+*.userprefs
+
+# Unity3D generated meta files
+*.pidb.meta
+
+# Unity3D generated file on crash reports
+sysinfo.txt
+
+# macOS
+.DS_Store
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
