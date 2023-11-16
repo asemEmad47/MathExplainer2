@@ -10,22 +10,17 @@ public class GameLogic : MonoBehaviour
 
     public string currentOperation;
 
-    public TMPro.TextMeshProUGUI questionText;
+    [SerializeField] TMPro.TextMeshProUGUI questionText;
 
     public static GameLogic instance;
 
-    private void Awake()
+    void Awake()
     {
         instance = this;
     }
 
-    private void Start()
-    {
-        GenerateQuestion();
-    }
-
     //we generate the question
-    private void GenerateQuestion()
+    public void GenerateQuestion()
     {
         string a = GenerateArithmaticExpression();
         string b = GenerateArithmaticExpression();
@@ -33,7 +28,7 @@ public class GameLogic : MonoBehaviour
 
         float correctAnswer = CalculateAnswer(EvaluateExpression(a), EvaluateExpression(b), currentOperation);
 
-        questionText.text = $"{a}    {b} = {correctAnswer}";
+        questionText.text = $"{a}  <sprite name= \"Smiley_22\">  {b} = {correctAnswer}";
     }
 
     private string GetRandomOperation()
@@ -44,7 +39,7 @@ public class GameLogic : MonoBehaviour
 
     private string GenerateArithmaticExpression()
     {
-        int option = Random.Range(1, 2);
+        int option = Random.Range(1, 6);
 
         switch (option)
         {
