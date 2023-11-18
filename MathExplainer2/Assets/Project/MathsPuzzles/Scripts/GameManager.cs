@@ -2,6 +2,7 @@ using System.CodeDom.Compiler;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
@@ -13,6 +14,12 @@ public class GameManager : MonoBehaviour
     [SerializeField] Button divisionButton;
     [SerializeField] Button multiplicationButton;
     [SerializeField] Button subtractButton;
+
+    int score = 0;
+
+    [SerializeField] TMPro.TextMeshProUGUI scoreText;
+
+    Timer timer;
 
     string userAnswer;
 
@@ -31,33 +38,45 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GameLogic.instance.GenerateQuestion();
+        timer = GetComponent<Timer>();
+    }
+
+    private void Update()
+    {
+        if(timer.remainingDuration == 40)
+        {
+            GameLogic.instance.difficulty = 2;
+        }
+        if(timer.remainingDuration == 20)
+        {
+            GameLogic.instance.difficulty = 3;
+        }
     }
 
     void AnswerAddtion()
     {
         userAnswer = "+";
         CheckAnswer();
-        GameLogic.instance.GenerateQuestion();
+        GameLogic.instance.GetQuestion();
     }
 
     void AnswerDivision()
     {
         userAnswer = "/";
         CheckAnswer();
-        GameLogic.instance.GenerateQuestion();
+        GameLogic.instance.GetQuestion();
     }
     void AnswerMultiplication()
     {
         userAnswer = "*";
         CheckAnswer();
-        GameLogic.instance.GenerateQuestion();
+        GameLogic.instance.GetQuestion();
     }
     void AnswerSubtract()
     {
         userAnswer = "-";
         CheckAnswer();
-        GameLogic.instance.GenerateQuestion();
+        GameLogic.instance.GetQuestion();
     }
 
     void CheckAnswer()
@@ -74,6 +93,8 @@ public class GameManager : MonoBehaviour
 
     IEnumerator RightAnswer()
     {
+        score += 10;
+        UpdateScore(score);
         rightAnsUI.SetActive(true);
         yield return new WaitForSeconds(0.2f);
         rightAnsUI.SetActive(false);
@@ -84,5 +105,10 @@ public class GameManager : MonoBehaviour
         wrongAnsUI.SetActive(true);
         yield return new WaitForSeconds(0.2f);
         wrongAnsUI.SetActive(false);
+    }
+
+    void UpdateScore(int score)
+    {
+        scoreText.text = "Score: " + score.ToString();
     }
 }

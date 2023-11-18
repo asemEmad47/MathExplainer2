@@ -8,11 +8,11 @@ public class Timer : MonoBehaviour
 {
 
     [SerializeField] private Image uiFill;
-    [SerializeField] private Text uiText;
+    [SerializeField] private TMPro.TextMeshProUGUI uiText;
 
     public int Duration;
 
-    private int remainingDuration;
+    public int remainingDuration;
 
     private void Start()
     {
