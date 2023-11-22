@@ -1,0 +1,2947 @@
+{"questions":[
+  {
+    "question": "(10 ? 8)   -   66 = 14",
+    "operation": "*"
+  },
+  {
+    "question": "(15 ? 5)   -   11 = 9",
+    "operation": "+"
+  },
+  {
+    "question": "(16 ? 12)   -   13 = 15",
+    "operation": "+"
+  },
+  {
+    "question": "(9 ? 6)   +   3 = 6",
+    "operation": "-"
+  },
+  {
+    "question": "(13 ? 12)   -   18 = 7",
+    "operation": "+"
+  },
+  {
+    "question": "(13 ? 13)   -   19 = 7",
+    "operation": "+"
+  },
+  {
+    "question": "(13 ? 9)   *   4 = 16",
+    "operation": "-"
+  },
+  {
+    "question": "(5 ? 5)   +   10 = 35",
+    "operation": "*"
+  },
+  {
+    "question": "(4 ? 4)   +   13 = 29",
+    "operation": "*"
+  },
+  {
+    "question": "(6 ? 3)   *   3 = 9",
+    "operation": "-"
+  },
+  {
+    "question": "(3 ? 3)   /   2 = 3",
+    "operation": "+"
+  },
+  {
+    "question": "(15 ? 4)   +   12 = 72",
+    "operation": "*"
+  },
+  {
+    "question": "(4 ? 3)   -   4 = 3",
+    "operation": "+"
+  },
+  {
+    "question": "(12 ? 3)   -   4 = 0",
+    "operation": "/"
+  },
+  {
+    "question": "(15 ? 7)   -   33 = 72",
+    "operation": "*"
+  },
+  {
+    "question": "(14 ? 8)   /   7 = 16",
+    "operation": "*"
+  },
+  {
+    "question": "(13 ? 7)   *   3 = 18",
+    "operation": "-"
+  },
+  {
+    "question": "(16 ? 7)   /   7 = 16",
+    "operation": "*"
+  },
+  {
+    "question": "(9 ? 4)   +   3 = 8",
+    "operation": "-"
+  },
+  {
+    "question": "(16 ? 10)   /   5 = 32",
+    "operation": "*"
+  },
+  {
+    "question": "(8 ? 7)   -   12 = 3",
+    "operation": "+"
+  },
+  {
+    "question": "(9 ? 8)   +   3 = 75",
+    "operation": "*"
+  },
+  {
+    "question": "(16 ? 2)   *   5 = 40",
+    "operation": "/"
+  },
+  {
+    "question": "(18 ? 4)   -   12 = 2",
+    "operation": "-"
+  },
+  {
+    "question": "(17 ? 13)   /   6 = 5",
+    "operation": "+"
+  },
+  {
+    "question": "(15 ? 4)   -   19 = 41",
+    "operation": "*"
+  },
+  {
+    "question": "(14 ? 2)   *   3 = 21",
+    "operation": "/"
+  },
+  {
+    "question": "(12 ? 3)   -   36 = 0",
+    "operation": "*"
+  },
+  {
+    "question": "(20 ? 13)   -   5 = 2",
+    "operation": "-"
+  },
+  {
+    "question": "(8 ? 3)   -   4 = 1",
+    "operation": "-"
+  },
+  {
+    "question": "(14 ? 13)   /   3 = 9",
+    "operation": "+"
+  },
+  {
+    "question": "(20 ? 5)   +   9 = 24",
+    "operation": "-"
+  },
+  {
+    "question": "(20 ? 2)   -   7 = 3",
+    "operation": "/"
+  },
+  {
+    "question": "(6 ? 3)   *   3 = 9",
+    "operation": "-"
+  },
+  {
+    "question": "(18 ? 6)   -   10 = 14",
+    "operation": "+"
+  },
+  {
+    "question": "(8 ? 3)   /   3 = 8",
+    "operation": "*"
+  },
+  {
+    "question": "(8 ? 4)   *   3 = 12",
+    "operation": "-"
+  },
+  {
+    "question": "(15 ? 3)   -   4 = 1",
+    "operation": "/"
+  },
+  {
+    "question": "(3 ? 3)   +   3 = 12",
+    "operation": "*"
+  },
+  {
+    "question": "(3 ? 3)   /   2 = 3",
+    "operation": "+"
+  },
+  {
+    "question": "(9 ? 4)   -   12 = 1",
+    "operation": "+"
+  },
+  {
+    "question": "(16 ? 12)   +   3 = 7",
+    "operation": "-"
+  },
+  {
+    "question": "(12 ? 3)   *   4 = 16",
+    "operation": "/"
+  },
+  {
+    "question": "(16 ? 16)   /   8 = 4",
+    "operation": "+"
+  },
+  {
+    "question": "(16 ? 11)   /   44 = 4",
+    "operation": "*"
+  },
+  {
+    "question": "(12 ? 4)   +   6 = 14",
+    "operation": "-"
+  },
+  {
+    "question": "(9 ? 6)   -   45 = 9",
+    "operation": "*"
+  },
+  {
+    "question": "(11 ? 4)   *   5 = 35",
+    "operation": "-"
+  },
+  {
+    "question": "(14 ? 9)   -   20 = 3",
+    "operation": "+"
+  },
+  {
+    "question": "(6 ? 6)   /   18 = 2",
+    "operation": "*"
+  },
+  {
+    "question": "(9 ? 6)   *   3 = 45",
+    "operation": "+"
+  },
+  {
+    "question": "(11 ? 4)   *   5 = 75",
+    "operation": "+"
+  },
+  {
+    "question": "(13 ? 11)   /   12 = 2",
+    "operation": "+"
+  },
+  {
+    "question": "(6 ? 3)   -   3 = 0",
+    "operation": "-"
+  },
+  {
+    "question": "(13 ? 7)   -   17 = 3",
+    "operation": "+"
+  },
+  {
+    "question": "(18 ? 5)   -   13 = 10",
+    "operation": "+"
+  },
+  {
+    "question": "(14 ? 10)   /   4 = 6",
+    "operation": "+"
+  },
+  {
+    "question": "(10 ? 7)   /   2 = 35",
+    "operation": "*"
+  },
+  {
+    "question": "(11 ? 7)   +   9 = 27",
+    "operation": "+"
+  },
+  {
+    "question": "(6 ? 3)   *   3 = 9",
+    "operation": "-"
+  },
+  {
+    "question": "(15 ? 3)   *   3 = 15",
+    "operation": "/"
+  },
+  {
+    "question": "(5 ? 5)   +   3 = 13",
+    "operation": "+"
+  },
+  {
+    "question": "(18 ? 18)   /   12 = 27",
+    "operation": "*"
+  },
+  {
+    "question": "(4 ? 3)   -   8 = 4",
+    "operation": "*"
+  },
+  {
+    "question": "(15 ? 4)   /   4 = 15",
+    "operation": "*"
+  },
+  {
+    "question": "(15 ? 13)   /   15 = 13",
+    "operation": "*"
+  },
+  {
+    "question": "(5 ? 5)   -   6 = 4",
+    "operation": "+"
+  },
+  {
+    "question": "(15 ? 7)   /   11 = 2",
+    "operation": "+"
+  },
+  {
+    "question": "(6 ? 3)   +   5 = 14",
+    "operation": "+"
+  },
+  {
+    "question": "(14 ? 2)   *   3 = 21",
+    "operation": "/"
+  },
+  {
+    "question": "(20 ? 2)   *   9 = 90",
+    "operation": "/"
+  },
+  {
+    "question": "(5 ? 3)   +   8 = 16",
+    "operation": "+"
+  },
+  {
+    "question": "(3 ? 3)   *   3 = 18",
+    "operation": "+"
+  },
+  {
+    "question": "(20 ? 14)   +   9 = 43",
+    "operation": "+"
+  },
+  {
+    "question": "(11 ? 4)   +   39 = 83",
+    "operation": "*"
+  },
+  {
+    "question": "(15 ? 8)   /   8 = 15",
+    "operation": "*"
+  },
+  {
+    "question": "(17 ? 15)   *   3 = 96",
+    "operation": "+"
+  },
+  {
+    "question": "(9 ? 7)   -   58 = 5",
+    "operation": "*"
+  },
+  {
+    "question": "(13 ? 8)   /   52 = 2",
+    "operation": "*"
+  },
+  {
+    "question": "(12 ? 7)   +   3 = 8",
+    "operation": "-"
+  },
+  {
+    "question": "(17 ? 9)   /   13 = 2",
+    "operation": "+"
+  },
+  {
+    "question": "(12 ? 2)   -   3 = 3",
+    "operation": "/"
+  },
+  {
+    "question": "(16 ? 4)   +   3 = 7",
+    "operation": "/"
+  },
+  {
+    "question": "(20 ? 14)   -   15 = 19",
+    "operation": "+"
+  },
+  {
+    "question": "(11 ? 8)   +   19 = 38",
+    "operation": "+"
+  },
+  {
+    "question": "(5 ? 5)   +   21 = 46",
+    "operation": "*"
+  },
+  {
+    "question": "(20 ? 10)   +   8 = 18",
+    "operation": "-"
+  },
+  {
+    "question": "(18 ? 4)   /   2 = 11",
+    "operation": "+"
+  },
+  {
+    "question": "(20 ? 8)   /   2 = 14",
+    "operation": "+"
+  },
+  {
+    "question": "(12 ? 4)   -   6 = 2",
+    "operation": "-"
+  },
+  {
+    "question": "(7 ? 3)   *   4 = 84",
+    "operation": "*"
+  },
+  {
+    "question": "(6 ? 5)   -   7 = 23",
+    "operation": "*"
+  },
+  {
+    "question": "(10 ? 9)   *   5 = 95",
+    "operation": "+"
+  },
+  {
+    "question": "(3 ? 3)   -   8 = 1",
+    "operation": "*"
+  },
+  {
+    "question": "(18 ? 5)   +   8 = 31",
+    "operation": "+"
+  },
+  {
+    "question": "(9 ? 3)   *   5 = 30",
+    "operation": "-"
+  },
+  {
+    "question": "(15 ? 5)   *   3 = 9",
+    "operation": "/"
+  },
+  {
+    "question": "(12 ? 7)   -   78 = 6",
+    "operation": "*"
+  },
+  {
+    "question": "(14 ? 7)   /   3 = 7",
+    "operation": "+"
+  },
+  {
+    "question": "(13 ? 12)   -   151 = 5",
+    "operation": "*"
+  },
+  {
+    "question": "(13 ? 3)   +   3 = 19",
+    "operation": "+"
+  },
+  {
+    "question": "(9 ? 4)   -   3 = 2",
+    "operation": "-"
+  },
+  {
+    "question": "(20 ? 9)   -   12 = 17",
+    "operation": "+"
+  },
+  {
+    "question": "(9 ? 3)   /   6 = 2",
+    "operation": "+"
+  },
+  {
+    "question": "(19 ? 18)   /   18 = 19",
+    "operation": "*"
+  },
+  {
+    "question": "(20 ? 14)   *   4 = 24",
+    "operation": "-"
+  },
+  {
+    "question": "(8 ? 3)   +   5 = 10",
+    "operation": "-"
+  },
+  {
+    "question": "(15 ? 7)   -   12 = 10",
+    "operation": "+"
+  },
+  {
+    "question": "(15 ? 7)   -   22 = 0",
+    "operation": "+"
+  },
+  {
+    "question": "(10 ? 4)   +   6 = 12",
+    "operation": "-"
+  },
+  {
+    "question": "(6 ? 6)   +   8 = 20",
+    "operation": "+"
+  },
+  {
+    "question": "(6 ? 6)   +   3 = 15",
+    "operation": "+"
+  },
+  {
+    "question": "(12 ? 9)   /   7 = 3",
+    "operation": "+"
+  },
+  {
+    "question": "(12 ? 12)   -   102 = 42",
+    "operation": "*"
+  },
+  {
+    "question": "(12 ? 7)   *   4 = 20",
+    "operation": "-"
+  },
+  {
+    "question": "(16 ? 7)   -   4 = 5",
+    "operation": "-"
+  },
+  {
+    "question": "(7 ? 4)   *   3 = 9",
+    "operation": "-"
+  },
+  {
+    "question": "(3 ? 3)   +   7 = 16",
+    "operation": "*"
+  },
+  {
+    "question": "(9 ? 3)   -   4 = 23",
+    "operation": "*"
+  },
+  {
+    "question": "(6 ? 3)   +   9 = 27",
+    "operation": "*"
+  },
+  {
+    "question": "(11 ? 5)   -   6 = 0",
+    "operation": "-"
+  },
+  {
+    "question": "(16 ? 4)   *   4 = 16",
+    "operation": "/"
+  },
+  {
+    "question": "(8 ? 5)   +   28 = 68",
+    "operation": "*"
+  },
+  {
+    "question": "(19 ? 7)   +   10 = 22",
+    "operation": "-"
+  },
+  {
+    "question": "(9 ? 7)   /   3 = 21",
+    "operation": "*"
+  },
+  {
+    "question": "(6 ? 3)   +   16 = 34",
+    "operation": "*"
+  },
+  {
+    "question": "(15 ? 5)   +   3 = 6",
+    "operation": "/"
+  },
+  {
+    "question": "(19 ? 8)   -   93 = 59",
+    "operation": "*"
+  },
+  {
+    "question": "(10 ? 3)   -   10 = 3",
+    "operation": "+"
+  },
+  {
+    "question": "(3 ? 3)   /   2 = 3",
+    "operation": "+"
+  },
+  {
+    "question": "(8 ? 5)   +   3 = 6",
+    "operation": "-"
+  },
+  {
+    "question": "(9 ? 4)   -   11 = 25",
+    "operation": "*"
+  },
+  {
+    "question": "(11 ? 5)   -   27 = 28",
+    "operation": "*"
+  },
+  {
+    "question": "(20 ? 7)   +   13 = 26",
+    "operation": "-"
+  },
+  {
+    "question": "(17 ? 7)   -   7 = 3",
+    "operation": "-"
+  },
+  {
+    "question": "(3 ? 3)   -   4 = 2",
+    "operation": "+"
+  },
+  {
+    "question": "(19 ? 6)   +   13 = 26",
+    "operation": "-"
+  },
+  {
+    "question": "(9 ? 3)   -   5 = 7",
+    "operation": "+"
+  },
+  {
+    "question": "(4 ? 3)   +   5 = 17",
+    "operation": "*"
+  },
+  {
+    "question": "(12 ? 9)   *   3 = 9",
+    "operation": "-"
+  },
+  {
+    "question": "(20 ? 8)   +   15 = 43",
+    "operation": "+"
+  },
+  {
+    "question": "(18 ? 6)   -   3 = 0",
+    "operation": "/"
+  },
+  {
+    "question": "(10 ? 5)   +   7 = 22",
+    "operation": "+"
+  },
+  {
+    "question": "(19 ? 4)   /   19 = 4",
+    "operation": "*"
+  },
+  {
+    "question": "(14 ? 5)   +   4 = 13",
+    "operation": "-"
+  },
+  {
+    "question": "(15 ? 3)   *   5 = 25",
+    "operation": "/"
+  },
+  {
+    "question": "(11 ? 4)   -   5 = 2",
+    "operation": "-"
+  },
+  {
+    "question": "(18 ? 7)   -   18 = 7",
+    "operation": "+"
+  },
+  {
+    "question": "(15 ? 3)   *   3 = 15",
+    "operation": "/"
+  },
+  {
+    "question": "(4 ? 4)   +   4 = 20",
+    "operation": "*"
+  },
+  {
+    "question": "(14 ? 6)   +   11 = 31",
+    "operation": "+"
+  },
+  {
+    "question": "(13 ? 4)   -   49 = 3",
+    "operation": "*"
+  },
+  {
+    "question": "(20 ? 7)   -   3 = 10",
+    "operation": "-"
+  },
+  {
+    "question": "(16 ? 4)   /   16 = 4",
+    "operation": "*"
+  },
+  {
+    "question": "(11 ? 7)   +   18 = 36",
+    "operation": "+"
+  },
+  {
+    "question": "(13 ? 10)   *   3 = 9",
+    "operation": "-"
+  },
+  {
+    "question": "(20 ? 9)   -   5 = 6",
+    "operation": "-"
+  },
+  {
+    "question": "(18 ? 2)   *   8 = 72",
+    "operation": "/"
+  },
+  {
+    "question": "(6 ? 4)   /   2 = 5",
+    "operation": "+"
+  },
+  {
+    "question": "(4 ? 4)   +   9 = 25",
+    "operation": "*"
+  },
+  {
+    "question": "(9 ? 9)   +   15 = 33",
+    "operation": "+"
+  },
+  {
+    "question": "(12 ? 9)   -   16 = 5",
+    "operation": "+"
+  },
+  {
+    "question": "(12 ? 3)   +   9 = 18",
+    "operation": "-"
+  },
+  {
+    "question": "(11 ? 10)   -   65 = 45",
+    "operation": "*"
+  },
+  {
+    "question": "(6 ? 3)   +   5 = 14",
+    "operation": "+"
+  },
+  {
+    "question": "(16 ? 11)   /   8 = 22",
+    "operation": "*"
+  },
+  {
+    "question": "(19 ? 14)   +   4 = 9",
+    "operation": "-"
+  },
+  {
+    "question": "(17 ? 10)   /   17 = 10",
+    "operation": "*"
+  },
+  {
+    "question": "(7 ? 4)   -   3 = 0",
+    "operation": "-"
+  },
+  {
+    "question": "(13 ? 8)   -   45 = 59",
+    "operation": "*"
+  },
+  {
+    "question": "(18 ? 3)   +   3 = 9",
+    "operation": "/"
+  },
+  {
+    "question": "(12 ? 9)   /   7 = 3",
+    "operation": "+"
+  },
+  {
+    "question": "(5 ? 3)   -   7 = 8",
+    "operation": "*"
+  },
+  {
+    "question": "(19 ? 11)   +   7 = 15",
+    "operation": "-"
+  },
+  {
+    "question": "(17 ? 5)   -   36 = 49",
+    "operation": "*"
+  },
+  {
+    "question": "(15 ? 9)   +   6 = 12",
+    "operation": "-"
+  },
+  {
+    "question": "(10 ? 2)   *   3 = 15",
+    "operation": "/"
+  },
+  {
+    "question": "(4 ? 3)   -   3 = 4",
+    "operation": "+"
+  },
+  {
+    "question": "(20 ? 17)   +   3 = 6",
+    "operation": "-"
+  },
+  {
+    "question": "(13 ? 4)   *   7 = 63",
+    "operation": "-"
+  },
+  {
+    "question": "(10 ? 8)   /   20 = 4",
+    "operation": "*"
+  },
+  {
+    "question": "(11 ? 7)   /   9 = 2",
+    "operation": "+"
+  },
+  {
+    "question": "(18 ? 6)   +   3 = 6",
+    "operation": "/"
+  },
+  {
+    "question": "(15 ? 5)   /   10 = 2",
+    "operation": "+"
+  },
+  {
+    "question": "(3 ? 3)   +   8 = 17",
+    "operation": "*"
+  },
+  {
+    "question": "(11 ? 7)   -   8 = 69",
+    "operation": "*"
+  },
+  {
+    "question": "(9 ? 4)   /   9 = 4",
+    "operation": "*"
+  },
+  {
+    "question": "(20 ? 3)   +   9 = 26",
+    "operation": "-"
+  },
+  {
+    "question": "(11 ? 3)   -   26 = 7",
+    "operation": "*"
+  },
+  {
+    "question": "(16 ? 2)   +   4 = 12",
+    "operation": "/"
+  },
+  {
+    "question": "(3 ? 3)   *   5 = 30",
+    "operation": "+"
+  },
+  {
+    "question": "(20 ? 9)   /   3 = 60",
+    "operation": "*"
+  },
+  {
+    "question": "(13 ? 7)   +   4 = 10",
+    "operation": "-"
+  },
+  {
+    "question": "(11 ? 10)   -   106 = 4",
+    "operation": "*"
+  },
+  {
+    "question": "(4 ? 3)   -   7 = 0",
+    "operation": "+"
+  },
+  {
+    "question": "(20 ? 11)   -   206 = 14",
+    "operation": "*"
+  },
+  {
+    "question": "(11 ? 11)   -   10 = 12",
+    "operation": "+"
+  },
+  {
+    "question": "(20 ? 11)   +   3 = 34",
+    "operation": "+"
+  },
+  {
+    "question": "(14 ? 11)   -   14 = 11",
+    "operation": "+"
+  },
+  {
+    "question": "(3 ? 3)   *   9 = 81",
+    "operation": "*"
+  },
+  {
+    "question": "(17 ? 4)   -   3 = 18",
+    "operation": "+"
+  },
+  {
+    "question": "(11 ? 5)   +   11 = 27",
+    "operation": "+"
+  },
+  {
+    "question": "(11 ? 8)   /   44 = 2",
+    "operation": "*"
+  },
+  {
+    "question": "(6 ? 5)   +   19 = 49",
+    "operation": "*"
+  },
+  {
+    "question": "(6 ? 2)   +   3 = 6",
+    "operation": "/"
+  },
+  {
+    "question": "(9 ? 8)   +   18 = 90",
+    "operation": "*"
+  },
+  {
+    "question": "(18 ? 6)   +   3 = 6",
+    "operation": "/"
+  },
+  {
+    "question": "(10 ? 7)   +   3 = 6",
+    "operation": "-"
+  },
+  {
+    "question": "(12 ? 3)   -   8 = 1",
+    "operation": "-"
+  },
+  {
+    "question": "(13 ? 9)   /   11 = 2",
+    "operation": "+"
+  },
+  {
+    "question": "(18 ? 17)   /   9 = 34",
+    "operation": "*"
+  },
+  {
+    "question": "(15 ? 4)   +   5 = 65",
+    "operation": "*"
+  },
+  {
+    "question": "(3 ? 3)   -   6 = 3",
+    "operation": "*"
+  },
+  {
+    "question": "(9 ? 3)   /   3 = 2",
+    "operation": "-"
+  },
+  {
+    "question": "(12 ? 6)   -   61 = 11",
+    "operation": "*"
+  },
+  {
+    "question": "(18 ? 3)   -   20 = 34",
+    "operation": "*"
+  },
+  {
+    "question": "(16 ? 8)   /   16 = 8",
+    "operation": "*"
+  },
+  {
+    "question": "(9 ? 3)   +   3 = 6",
+    "operation": "/"
+  },
+  {
+    "question": "(3 ? 3)   /   3 = 2",
+    "operation": "+"
+  },
+  {
+    "question": "(4 ? 3)   *   4 = 48",
+    "operation": "*"
+  },
+  {
+    "question": "(20 ? 7)   /   35 = 4",
+    "operation": "*"
+  },
+  {
+    "question": "(10 ? 9)   -   18 = 1",
+    "operation": "+"
+  },
+  {
+    "question": "(18 ? 2)   -   4 = 5",
+    "operation": "/"
+  },
+  {
+    "question": "(4 ? 3)   +   3 = 15",
+    "operation": "*"
+  },
+  {
+    "question": "(5 ? 3)   *   5 = 40",
+    "operation": "+"
+  },
+  {
+    "question": "(9 ? 6)   -   3 = 12",
+    "operation": "+"
+  },
+  {
+    "question": "(5 ? 5)   /   5 = 2",
+    "operation": "+"
+  },
+  {
+    "question": "(8 ? 6)   *   5 = 70",
+    "operation": "+"
+  },
+  {
+    "question": "(6 ? 2)   *   3 = 9",
+    "operation": "/"
+  },
+  {
+    "question": "(13 ? 3)   -   33 = 6",
+    "operation": "*"
+  },
+  {
+    "question": "(19 ? 11)   -   118 = 91",
+    "operation": "*"
+  },
+  {
+    "question": "(15 ? 15)   -   9 = 21",
+    "operation": "+"
+  },
+  {
+    "question": "(7 ? 5)   -   16 = 19",
+    "operation": "*"
+  },
+  {
+    "question": "(18 ? 7)   /   6 = 21",
+    "operation": "*"
+  },
+  {
+    "question": "(3 ? 3)   +   3 = 9",
+    "operation": "+"
+  },
+  {
+    "question": "(10 ? 2)   +   5 = 10",
+    "operation": "/"
+  },
+  {
+    "question": "(19 ? 5)   -   12 = 2",
+    "operation": "-"
+  },
+  {
+    "question": "(12 ? 8)   /   2 = 48",
+    "operation": "*"
+  },
+  {
+    "question": "(4 ? 4)   +   4 = 12",
+    "operation": "+"
+  },
+  {
+    "question": "(6 ? 6)   -   11 = 1",
+    "operation": "+"
+  },
+  {
+    "question": "(8 ? 8)   +   9 = 25",
+    "operation": "+"
+  },
+  {
+    "question": "(7 ? 5)   /   7 = 5",
+    "operation": "*"
+  },
+  {
+    "question": "(3 ? 3)   *   5 = 45",
+    "operation": "*"
+  },
+  {
+    "question": "(20 ? 5)   -   3 = 1",
+    "operation": "/"
+  },
+  {
+    "question": "(6 ? 6)   -   36 = 0",
+    "operation": "*"
+  },
+  {
+    "question": "(16 ? 4)   -   63 = 1",
+    "operation": "*"
+  },
+  {
+    "question": "(17 ? 5)   -   9 = 13",
+    "operation": "+"
+  },
+  {
+    "question": "(12 ? 2)   /   2 = 3",
+    "operation": "/"
+  },
+  {
+    "question": "(8 ? 6)   /   2 = 7",
+    "operation": "+"
+  },
+  {
+    "question": "(14 ? 3)   +   9 = 20",
+    "operation": "-"
+  },
+  {
+    "question": "(8 ? 5)   +   7 = 47",
+    "operation": "*"
+  },
+  {
+    "question": "(5 ? 3)   *   6 = 48",
+    "operation": "+"
+  },
+  {
+    "question": "(3 ? 3)   /   2 = 3",
+    "operation": "+"
+  },
+  {
+    "question": "(5 ? 5)   /   5 = 2",
+    "operation": "+"
+  },
+  {
+    "question": "(7 ? 3)   +   3 = 7",
+    "operation": "-"
+  },
+  {
+    "question": "(9 ? 4)   +   3 = 8",
+    "operation": "-"
+  },
+  {
+    "question": "(4 ? 3)   /   2 = 6",
+    "operation": "*"
+  },
+  {
+    "question": "(6 ? 4)   +   19 = 43",
+    "operation": "*"
+  },
+  {
+    "question": "(15 ? 5)   /   5 = 2",
+    "operation": "-"
+  },
+  {
+    "question": "(18 ? 18)   -   9 = 27",
+    "operation": "+"
+  },
+  {
+    "question": "(9 ? 4)   +   33 = 69",
+    "operation": "*"
+  },
+  {
+    "question": "(15 ? 5)   +   21 = 96",
+    "operation": "*"
+  },
+  {
+    "question": "(5 ? 3)   *   3 = 24",
+    "operation": "+"
+  },
+  {
+    "question": "(15 ? 9)   -   100 = 35",
+    "operation": "*"
+  },
+  {
+    "question": "(4 ? 4)   /   2 = 8",
+    "operation": "*"
+  },
+  {
+    "question": "(11 ? 3)   +   18 = 51",
+    "operation": "*"
+  },
+  {
+    "question": "(6 ? 6)   /   2 = 6",
+    "operation": "+"
+  },
+  {
+    "question": "(19 ? 4)   -   4 = 11",
+    "operation": "-"
+  },
+  {
+    "question": "(16 ? 5)   -   10 = 1",
+    "operation": "-"
+  },
+  {
+    "question": "(14 ? 11)   -   77 = 77",
+    "operation": "*"
+  },
+  {
+    "question": "(7 ? 7)   -   16 = 33",
+    "operation": "*"
+  },
+  {
+    "question": "(20 ? 4)   *   4 = 20",
+    "operation": "/"
+  },
+  {
+    "question": "(20 ? 7)   -   11 = 2",
+    "operation": "-"
+  },
+  {
+    "question": "(9 ? 8)   -   65 = 7",
+    "operation": "*"
+  },
+  {
+    "question": "(12 ? 11)   -   33 = 99",
+    "operation": "*"
+  },
+  {
+    "question": "(20 ? 14)   /   40 = 7",
+    "operation": "*"
+  },
+  {
+    "question": "(16 ? 2)   /   2 = 4",
+    "operation": "/"
+  },
+  {
+    "question": "(18 ? 3)   /   3 = 2",
+    "operation": "/"
+  },
+  {
+    "question": "(11 ? 9)   /   10 = 2",
+    "operation": "+"
+  },
+  {
+    "question": "(8 ? 4)   +   9 = 41",
+    "operation": "*"
+  },
+  {
+    "question": "(14 ? 4)   -   6 = 4",
+    "operation": "-"
+  },
+  {
+    "question": "(12 ? 6)   /   9 = 2",
+    "operation": "+"
+  },
+  {
+    "question": "(8 ? 8)   +   11 = 27",
+    "operation": "+"
+  },
+  {
+    "question": "(14 ? 2)   +   6 = 13",
+    "operation": "/"
+  },
+  {
+    "question": "(11 ? 7)   +   3 = 7",
+    "operation": "-"
+  },
+  {
+    "question": "(10 ? 6)   +   4 = 8",
+    "operation": "-"
+  },
+  {
+    "question": "(3 ? 3)   *   6 = 36",
+    "operation": "+"
+  },
+  {
+    "question": "(16 ? 13)   -   3 = 0",
+    "operation": "-"
+  },
+  {
+    "question": "(5 ? 3)   *   4 = 32",
+    "operation": "+"
+  },
+  {
+    "question": "(8 ? 3)   -   5 = 0",
+    "operation": "-"
+  },
+  {
+    "question": "(16 ? 14)   -   150 = 74",
+    "operation": "*"
+  },
+  {
+    "question": "(7 ? 4)   *   9 = 99",
+    "operation": "+"
+  },
+  {
+    "question": "(19 ? 13)   -   5 = 1",
+    "operation": "-"
+  },
+  {
+    "question": "(3 ? 3)   -   4 = 2",
+    "operation": "+"
+  },
+  {
+    "question": "(4 ? 4)   -   5 = 11",
+    "operation": "*"
+  },
+  {
+    "question": "(3 ? 3)   +   6 = 12",
+    "operation": "+"
+  },
+  {
+    "question": "(20 ? 19)   -   353 = 27",
+    "operation": "*"
+  },
+  {
+    "question": "(12 ? 9)   +   3 = 6",
+    "operation": "-"
+  },
+  {
+    "question": "(13 ? 5)   -   6 = 2",
+    "operation": "-"
+  },
+  {
+    "question": "(15 ? 11)   -   4 = 0",
+    "operation": "-"
+  },
+  {
+    "question": "(8 ? 2)   *   3 = 12",
+    "operation": "/"
+  },
+  {
+    "question": "(3 ? 3)   +   5 = 11",
+    "operation": "+"
+  },
+  {
+    "question": "(11 ? 4)   *   6 = 42",
+    "operation": "-"
+  },
+  {
+    "question": "(11 ? 7)   -   8 = 10",
+    "operation": "+"
+  },
+  {
+    "question": "(6 ? 3)   *   3 = 9",
+    "operation": "-"
+  },
+  {
+    "question": "(18 ? 2)   +   7 = 16",
+    "operation": "/"
+  },
+  {
+    "question": "(14 ? 9)   +   5 = 10",
+    "operation": "-"
+  },
+  {
+    "question": "(17 ? 7)   +   22 = 46",
+    "operation": "+"
+  },
+  {
+    "question": "(15 ? 13)   +   16 = 44",
+    "operation": "+"
+  },
+  {
+    "question": "(13 ? 3)   /   13 = 3",
+    "operation": "*"
+  },
+  {
+    "question": "(11 ? 9)   -   4 = 16",
+    "operation": "+"
+  },
+  {
+    "question": "(20 ? 11)   /   110 = 2",
+    "operation": "*"
+  },
+  {
+    "question": "(10 ? 3)   -   6 = 1",
+    "operation": "-"
+  },
+  {
+    "question": "(14 ? 7)   +   5 = 26",
+    "operation": "+"
+  },
+  {
+    "question": "(9 ? 3)   *   3 = 9",
+    "operation": "/"
+  },
+  {
+    "question": "(3 ? 3)   -   5 = 4",
+    "operation": "*"
+  },
+  {
+    "question": "(10 ? 7)   -   10 = 7",
+    "operation": "+"
+  },
+  {
+    "question": "(20 ? 11)   -   31 = 0",
+    "operation": "+"
+  },
+  {
+    "question": "(10 ? 4)   -   6 = 8",
+    "operation": "+"
+  },
+  {
+    "question": "(15 ? 4)   -   3 = 8",
+    "operation": "-"
+  },
+  {
+    "question": "(20 ? 20)   -   341 = 59",
+    "operation": "*"
+  },
+  {
+    "question": "(9 ? 6)   +   3 = 6",
+    "operation": "-"
+  },
+  {
+    "question": "(9 ? 9)   /   27 = 3",
+    "operation": "*"
+  },
+  {
+    "question": "(4 ? 4)   *   7 = 56",
+    "operation": "+"
+  },
+  {
+    "question": "(16 ? 8)   *   3 = 24",
+    "operation": "-"
+  },
+  {
+    "question": "(14 ? 4)   /   14 = 4",
+    "operation": "*"
+  },
+  {
+    "question": "(13 ? 8)   -   19 = 2",
+    "operation": "+"
+  },
+  {
+    "question": "(8 ? 2)   *   4 = 16",
+    "operation": "/"
+  },
+  {
+    "question": "(5 ? 3)   -   3 = 5",
+    "operation": "+"
+  },
+  {
+    "question": "(15 ? 8)   *   5 = 35",
+    "operation": "-"
+  },
+  {
+    "question": "(18 ? 6)   +   19 = 43",
+    "operation": "+"
+  },
+  {
+    "question": "(9 ? 9)   +   3 = 21",
+    "operation": "+"
+  },
+  {
+    "question": "(19 ? 16)   +   3 = 6",
+    "operation": "-"
+  },
+  {
+    "question": "(14 ? 10)   -   17 = 7",
+    "operation": "+"
+  },
+  {
+    "question": "(14 ? 12)   -   3 = 23",
+    "operation": "+"
+  },
+  {
+    "question": "(19 ? 6)   /   6 = 19",
+    "operation": "*"
+  },
+  {
+    "question": "(13 ? 9)   +   7 = 29",
+    "operation": "+"
+  },
+  {
+    "question": "(16 ? 10)   *   6 = 36",
+    "operation": "-"
+  },
+  {
+    "question": "(6 ? 6)   +   3 = 15",
+    "operation": "+"
+  },
+  {
+    "question": "(4 ? 4)   -   11 = 5",
+    "operation": "*"
+  },
+  {
+    "question": "(4 ? 3)   -   5 = 7",
+    "operation": "*"
+  },
+  {
+    "question": "(13 ? 6)   -   18 = 1",
+    "operation": "+"
+  },
+  {
+    "question": "(12 ? 5)   -   5 = 12",
+    "operation": "+"
+  },
+  {
+    "question": "(13 ? 4)   -   17 = 0",
+    "operation": "+"
+  },
+  {
+    "question": "(16 ? 5)   -   12 = 9",
+    "operation": "+"
+  },
+  {
+    "question": "(4 ? 4)   -   15 = 1",
+    "operation": "*"
+  },
+  {
+    "question": "(9 ? 6)   *   3 = 45",
+    "operation": "+"
+  },
+  {
+    "question": "(11 ? 4)   +   13 = 28",
+    "operation": "+"
+  },
+  {
+    "question": "(12 ? 3)   +   7 = 16",
+    "operation": "-"
+  },
+  {
+    "question": "(3 ? 3)   +   9 = 18",
+    "operation": "*"
+  },
+  {
+    "question": "(7 ? 3)   -   4 = 0",
+    "operation": "-"
+  },
+  {
+    "question": "(6 ? 5)   +   6 = 17",
+    "operation": "+"
+  },
+  {
+    "question": "(13 ? 6)   +   7 = 14",
+    "operation": "-"
+  },
+  {
+    "question": "(3 ? 3)   +   6 = 15",
+    "operation": "*"
+  },
+  {
+    "question": "(16 ? 10)   +   8 = 34",
+    "operation": "+"
+  },
+  {
+    "question": "(4 ? 3)   *   7 = 84",
+    "operation": "*"
+  },
+  {
+    "question": "(16 ? 13)   *   3 = 9",
+    "operation": "-"
+  },
+  {
+    "question": "(16 ? 12)   *   4 = 16",
+    "operation": "-"
+  },
+  {
+    "question": "(4 ? 4)   /   4 = 2",
+    "operation": "+"
+  },
+  {
+    "question": "(9 ? 7)   +   13 = 29",
+    "operation": "+"
+  },
+  {
+    "question": "(16 ? 10)   -   4 = 2",
+    "operation": "-"
+  },
+  {
+    "question": "(4 ? 4)   /   4 = 2",
+    "operation": "+"
+  },
+  {
+    "question": "(14 ? 13)   -   82 = 100",
+    "operation": "*"
+  },
+  {
+    "question": "(3 ? 3)   +   4 = 10",
+    "operation": "+"
+  },
+  {
+    "question": "(13 ? 7)   -   3 = 3",
+    "operation": "-"
+  },
+  {
+    "question": "(18 ? 3)   +   4 = 10",
+    "operation": "/"
+  },
+  {
+    "question": "(5 ? 4)   -   3 = 6",
+    "operation": "+"
+  },
+  {
+    "question": "(12 ? 4)   -   3 = 0",
+    "operation": "/"
+  },
+  {
+    "question": "(18 ? 5)   -   20 = 3",
+    "operation": "+"
+  },
+  {
+    "question": "(16 ? 11)   /   4 = 44",
+    "operation": "*"
+  },
+  {
+    "question": "(15 ? 9)   /   8 = 3",
+    "operation": "+"
+  },
+  {
+    "question": "(9 ? 3)   -   20 = 7",
+    "operation": "*"
+  },
+  {
+    "question": "(9 ? 9)   /   9 = 2",
+    "operation": "+"
+  },
+  {
+    "question": "(20 ? 7)   /   7 = 20",
+    "operation": "*"
+  },
+  {
+    "question": "(18 ? 4)   +   11 = 25",
+    "operation": "-"
+  },
+  {
+    "question": "(6 ? 6)   /   6 = 2",
+    "operation": "+"
+  },
+  {
+    "question": "(12 ? 11)   +   7 = 30",
+    "operation": "+"
+  },
+  {
+    "question": "(4 ? 4)   +   11 = 27",
+    "operation": "*"
+  },
+  {
+    "question": "(15 ? 5)   +   9 = 29",
+    "operation": "+"
+  },
+  {
+    "question": "(9 ? 4)   /   2 = 18",
+    "operation": "*"
+  },
+  {
+    "question": "(9 ? 7)   -   53 = 10",
+    "operation": "*"
+  },
+  {
+    "question": "(19 ? 8)   +   19 = 46",
+    "operation": "+"
+  },
+  {
+    "question": "(19 ? 9)   -   23 = 5",
+    "operation": "+"
+  },
+  {
+    "question": "(6 ? 2)   -   3 = 0",
+    "operation": "/"
+  },
+  {
+    "question": "(11 ? 3)   -   16 = 17",
+    "operation": "*"
+  },
+  {
+    "question": "(15 ? 3)   -   5 = 0",
+    "operation": "/"
+  },
+  {
+    "question": "(11 ? 6)   -   3 = 14",
+    "operation": "+"
+  },
+  {
+    "question": "(16 ? 4)   *   4 = 16",
+    "operation": "/"
+  },
+  {
+    "question": "(15 ? 8)   +   10 = 33",
+    "operation": "+"
+  },
+  {
+    "question": "(13 ? 4)   +   29 = 81",
+    "operation": "*"
+  },
+  {
+    "question": "(4 ? 3)   +   12 = 24",
+    "operation": "*"
+  },
+  {
+    "question": "(14 ? 12)   -   26 = 0",
+    "operation": "+"
+  },
+  {
+    "question": "(7 ? 4)   -   8 = 3",
+    "operation": "+"
+  },
+  {
+    "question": "(18 ? 6)   *   3 = 36",
+    "operation": "-"
+  },
+  {
+    "question": "(3 ? 3)   -   6 = 0",
+    "operation": "+"
+  },
+  {
+    "question": "(15 ? 8)   -   15 = 8",
+    "operation": "+"
+  },
+  {
+    "question": "(13 ? 9)   +   14 = 36",
+    "operation": "+"
+  },
+  {
+    "question": "(18 ? 15)   +   3 = 6",
+    "operation": "-"
+  },
+  {
+    "question": "(9 ? 5)   -   6 = 39",
+    "operation": "*"
+  },
+  {
+    "question": "(5 ? 3)   *   6 = 48",
+    "operation": "+"
+  },
+  {
+    "question": "(10 ? 5)   -   3 = 2",
+    "operation": "-"
+  },
+  {
+    "question": "(9 ? 3)   *   3 = 9",
+    "operation": "/"
+  },
+  {
+    "question": "(9 ? 6)   +   10 = 25",
+    "operation": "+"
+  },
+  {
+    "question": "(4 ? 4)   -   6 = 2",
+    "operation": "+"
+  },
+  {
+    "question": "(11 ? 5)   /   8 = 2",
+    "operation": "+"
+  },
+  {
+    "question": "(12 ? 3)   +   5 = 41",
+    "operation": "*"
+  },
+  {
+    "question": "(3 ? 3)   -   6 = 3",
+    "operation": "*"
+  },
+  {
+    "question": "(20 ? 13)   +   7 = 40",
+    "operation": "+"
+  },
+  {
+    "question": "(11 ? 5)   -   48 = 7",
+    "operation": "*"
+  },
+  {
+    "question": "(3 ? 3)   +   6 = 12",
+    "operation": "+"
+  },
+  {
+    "question": "(4 ? 4)   +   4 = 12",
+    "operation": "+"
+  },
+  {
+    "question": "(7 ? 4)   +   9 = 20",
+    "operation": "+"
+  },
+  {
+    "question": "(20 ? 2)   +   8 = 18",
+    "operation": "/"
+  },
+  {
+    "question": "(13 ? 9)   *   3 = 12",
+    "operation": "-"
+  },
+  {
+    "question": "(8 ? 3)   -   4 = 1",
+    "operation": "-"
+  },
+  {
+    "question": "(7 ? 3)   /   3 = 7",
+    "operation": "*"
+  },
+  {
+    "question": "(20 ? 11)   -   142 = 78",
+    "operation": "*"
+  },
+  {
+    "question": "(16 ? 10)   -   10 = 16",
+    "operation": "+"
+  },
+  {
+    "question": "(9 ? 6)   +   9 = 63",
+    "operation": "*"
+  },
+  {
+    "question": "(20 ? 15)   +   18 = 53",
+    "operation": "+"
+  },
+  {
+    "question": "(6 ? 2)   -   3 = 0",
+    "operation": "/"
+  },
+  {
+    "question": "(15 ? 5)   *   3 = 9",
+    "operation": "/"
+  },
+  {
+    "question": "(5 ? 4)   +   8 = 17",
+    "operation": "+"
+  },
+  {
+    "question": "(8 ? 3)   *   4 = 20",
+    "operation": "-"
+  },
+  {
+    "question": "(13 ? 13)   -   70 = 99",
+    "operation": "*"
+  },
+  {
+    "question": "(18 ? 8)   -   7 = 19",
+    "operation": "+"
+  },
+  {
+    "question": "(7 ? 7)   -   13 = 36",
+    "operation": "*"
+  },
+  {
+    "question": "(7 ? 7)   -   31 = 18",
+    "operation": "*"
+  },
+  {
+    "question": "(12 ? 6)   -   34 = 38",
+    "operation": "*"
+  },
+  {
+    "question": "(12 ? 4)   +   3 = 6",
+    "operation": "/"
+  },
+  {
+    "question": "(18 ? 8)   -   24 = 2",
+    "operation": "+"
+  },
+  {
+    "question": "(20 ? 6)   -   13 = 1",
+    "operation": "-"
+  },
+  {
+    "question": "(20 ? 3)   -   17 = 43",
+    "operation": "*"
+  },
+  {
+    "question": "(16 ? 2)   /   2 = 4",
+    "operation": "/"
+  },
+  {
+    "question": "(17 ? 4)   +   10 = 23",
+    "operation": "-"
+  },
+  {
+    "question": "(6 ? 4)   +   22 = 46",
+    "operation": "*"
+  },
+  {
+    "question": "(6 ? 3)   +   9 = 27",
+    "operation": "*"
+  },
+  {
+    "question": "(19 ? 6)   /   38 = 3",
+    "operation": "*"
+  },
+  {
+    "question": "(17 ? 7)   +   10 = 34",
+    "operation": "+"
+  },
+  {
+    "question": "(11 ? 3)   -   8 = 0",
+    "operation": "-"
+  },
+  {
+    "question": "(18 ? 6)   +   7 = 31",
+    "operation": "+"
+  },
+  {
+    "question": "(19 ? 15)   -   12 = 22",
+    "operation": "+"
+  },
+  {
+    "question": "(6 ? 6)   /   4 = 3",
+    "operation": "+"
+  },
+  {
+    "question": "(16 ? 9)   +   23 = 48",
+    "operation": "+"
+  },
+  {
+    "question": "(20 ? 4)   -   49 = 31",
+    "operation": "*"
+  },
+  {
+    "question": "(15 ? 14)   -   196 = 14",
+    "operation": "*"
+  },
+  {
+    "question": "(17 ? 12)   /   12 = 17",
+    "operation": "*"
+  },
+  {
+    "question": "(19 ? 14)   -   16 = 17",
+    "operation": "+"
+  },
+  {
+    "question": "(4 ? 4)   *   8 = 64",
+    "operation": "+"
+  },
+  {
+    "question": "(17 ? 8)   -   5 = 4",
+    "operation": "-"
+  },
+  {
+    "question": "(12 ? 6)   *   5 = 90",
+    "operation": "+"
+  },
+  {
+    "question": "(19 ? 19)   +   26 = 64",
+    "operation": "+"
+  },
+  {
+    "question": "(8 ? 3)   +   4 = 9",
+    "operation": "-"
+  },
+  {
+    "question": "(12 ? 3)   -   14 = 1",
+    "operation": "+"
+  },
+  {
+    "question": "(6 ? 6)   +   12 = 24",
+    "operation": "+"
+  },
+  {
+    "question": "(5 ? 4)   -   8 = 12",
+    "operation": "*"
+  },
+  {
+    "question": "(7 ? 5)   /   5 = 7",
+    "operation": "*"
+  },
+  {
+    "question": "(13 ? 9)   -   75 = 42",
+    "operation": "*"
+  },
+  {
+    "question": "(20 ? 11)   -   9 = 0",
+    "operation": "-"
+  },
+  {
+    "question": "(13 ? 10)   *   3 = 9",
+    "operation": "-"
+  },
+  {
+    "question": "(9 ? 9)   /   3 = 6",
+    "operation": "+"
+  },
+  {
+    "question": "(5 ? 4)   +   12 = 32",
+    "operation": "*"
+  },
+  {
+    "question": "(6 ? 5)   *   5 = 55",
+    "operation": "+"
+  },
+  {
+    "question": "(19 ? 16)   +   3 = 6",
+    "operation": "-"
+  },
+  {
+    "question": "(9 ? 3)   +   3 = 6",
+    "operation": "/"
+  },
+  {
+    "question": "(16 ? 4)   +   16 = 80",
+    "operation": "*"
+  },
+  {
+    "question": "(17 ? 4)   -   14 = 7",
+    "operation": "+"
+  },
+  {
+    "question": "(9 ? 5)   *   6 = 84",
+    "operation": "+"
+  },
+  {
+    "question": "(15 ? 11)   /   11 = 15",
+    "operation": "*"
+  },
+  {
+    "question": "(17 ? 9)   /   2 = 13",
+    "operation": "+"
+  },
+  {
+    "question": "(20 ? 8)   -   6 = 6",
+    "operation": "-"
+  },
+  {
+    "question": "(3 ? 3)   +   6 = 12",
+    "operation": "+"
+  },
+  {
+    "question": "(17 ? 13)   +   26 = 56",
+    "operation": "+"
+  },
+  {
+    "question": "(8 ? 5)   +   4 = 44",
+    "operation": "*"
+  },
+  {
+    "question": "(18 ? 16)   /   24 = 12",
+    "operation": "*"
+  },
+  {
+    "question": "(18 ? 2)   -   3 = 6",
+    "operation": "/"
+  },
+  {
+    "question": "(3 ? 3)   +   6 = 12",
+    "operation": "+"
+  },
+  {
+    "question": "(7 ? 6)   +   7 = 20",
+    "operation": "+"
+  },
+  {
+    "question": "(14 ? 12)   +   19 = 45",
+    "operation": "+"
+  },
+  {
+    "question": "(12 ? 3)   *   4 = 16",
+    "operation": "/"
+  },
+  {
+    "question": "(3 ? 3)   *   3 = 18",
+    "operation": "+"
+  },
+  {
+    "question": "(18 ? 10)   /   90 = 2",
+    "operation": "*"
+  },
+  {
+    "question": "(20 ? 4)   *   3 = 15",
+    "operation": "/"
+  },
+  {
+    "question": "(3 ? 3)   +   3 = 9",
+    "operation": "+"
+  },
+  {
+    "question": "(12 ? 12)   /   6 = 24",
+    "operation": "*"
+  },
+  {
+    "question": "(14 ? 9)   +   5 = 10",
+    "operation": "-"
+  },
+  {
+    "question": "(4 ? 4)   +   5 = 13",
+    "operation": "+"
+  },
+  {
+    "question": "(20 ? 5)   +   3 = 7",
+    "operation": "/"
+  },
+  {
+    "question": "(14 ? 8)   /   11 = 2",
+    "operation": "+"
+  },
+  {
+    "question": "(7 ? 3)   /   3 = 7",
+    "operation": "*"
+  },
+  {
+    "question": "(8 ? 4)   -   23 = 9",
+    "operation": "*"
+  },
+  {
+    "question": "(18 ? 3)   /   2 = 3",
+    "operation": "/"
+  },
+  {
+    "question": "(11 ? 9)   /   3 = 33",
+    "operation": "*"
+  },
+  {
+    "question": "(8 ? 5)   -   12 = 1",
+    "operation": "+"
+  },
+  {
+    "question": "(14 ? 4)   -   11 = 45",
+    "operation": "*"
+  },
+  {
+    "question": "(8 ? 6)   /   2 = 7",
+    "operation": "+"
+  },
+  {
+    "question": "(20 ? 3)   /   3 = 20",
+    "operation": "*"
+  },
+  {
+    "question": "(5 ? 5)   -   4 = 6",
+    "operation": "+"
+  },
+  {
+    "question": "(12 ? 2)   -   5 = 1",
+    "operation": "/"
+  },
+  {
+    "question": "(17 ? 6)   -   22 = 80",
+    "operation": "*"
+  },
+  {
+    "question": "(19 ? 13)   /   4 = 8",
+    "operation": "+"
+  },
+  {
+    "question": "(5 ? 3)   +   8 = 16",
+    "operation": "+"
+  },
+  {
+    "question": "(17 ? 10)   -   6 = 1",
+    "operation": "-"
+  },
+  {
+    "question": "(17 ? 5)   -   32 = 53",
+    "operation": "*"
+  },
+  {
+    "question": "(20 ? 7)   -   15 = 12",
+    "operation": "+"
+  },
+  {
+    "question": "(6 ? 6)   *   7 = 84",
+    "operation": "+"
+  },
+  {
+    "question": "(3 ? 3)   *   6 = 54",
+    "operation": "*"
+  },
+  {
+    "question": "(10 ? 9)   /   45 = 2",
+    "operation": "*"
+  },
+  {
+    "question": "(14 ? 6)   /   7 = 12",
+    "operation": "*"
+  },
+  {
+    "question": "(9 ? 3)   *   3 = 9",
+    "operation": "/"
+  },
+  {
+    "question": "(7 ? 3)   -   3 = 1",
+    "operation": "-"
+  },
+  {
+    "question": "(9 ? 9)   /   3 = 6",
+    "operation": "+"
+  },
+  {
+    "question": "(8 ? 3)   *   3 = 15",
+    "operation": "-"
+  },
+  {
+    "question": "(19 ? 9)   -   3 = 7",
+    "operation": "-"
+  },
+  {
+    "question": "(8 ? 6)   +   13 = 27",
+    "operation": "+"
+  },
+  {
+    "question": "(19 ? 12)   -   6 = 1",
+    "operation": "-"
+  },
+  {
+    "question": "(9 ? 3)   -   5 = 1",
+    "operation": "-"
+  },
+  {
+    "question": "(6 ? 6)   +   8 = 20",
+    "operation": "+"
+  },
+  {
+    "question": "(4 ? 4)   +   3 = 19",
+    "operation": "*"
+  },
+  {
+    "question": "(11 ? 10)   /   22 = 5",
+    "operation": "*"
+  },
+  {
+    "question": "(11 ? 10)   -   16 = 5",
+    "operation": "+"
+  },
+  {
+    "question": "(5 ? 3)   *   6 = 48",
+    "operation": "+"
+  },
+  {
+    "question": "(6 ? 3)   *   7 = 63",
+    "operation": "+"
+  },
+  {
+    "question": "(15 ? 7)   -   3 = 5",
+    "operation": "-"
+  },
+  {
+    "question": "(3 ? 3)   *   9 = 81",
+    "operation": "*"
+  },
+  {
+    "question": "(17 ? 15)   -   29 = 3",
+    "operation": "+"
+  },
+  {
+    "question": "(14 ? 8)   -   12 = 10",
+    "operation": "+"
+  },
+  {
+    "question": "(18 ? 8)   *   3 = 30",
+    "operation": "-"
+  },
+  {
+    "question": "(6 ? 6)   /   2 = 6",
+    "operation": "+"
+  },
+  {
+    "question": "(12 ? 5)   -   7 = 0",
+    "operation": "-"
+  },
+  {
+    "question": "(15 ? 10)   +   13 = 38",
+    "operation": "+"
+  },
+  {
+    "question": "(20 ? 17)   +   23 = 60",
+    "operation": "+"
+  },
+  {
+    "question": "(15 ? 7)   *   7 = 56",
+    "operation": "-"
+  },
+  {
+    "question": "(15 ? 3)   -   3 = 2",
+    "operation": "/"
+  },
+  {
+    "question": "(18 ? 2)   -   9 = 0",
+    "operation": "/"
+  },
+  {
+    "question": "(19 ? 3)   /   3 = 19",
+    "operation": "*"
+  },
+  {
+    "question": "(10 ? 5)   -   15 = 35",
+    "operation": "*"
+  },
+  {
+    "question": "(20 ? 2)   +   4 = 14",
+    "operation": "/"
+  },
+  {
+    "question": "(9 ? 3)   *   3 = 9",
+    "operation": "/"
+  },
+  {
+    "question": "(16 ? 4)   +   14 = 34",
+    "operation": "+"
+  },
+  {
+    "question": "(20 ? 2)   -   10 = 0",
+    "operation": "/"
+  },
+  {
+    "question": "(18 ? 15)   -   3 = 0",
+    "operation": "-"
+  },
+  {
+    "question": "(14 ? 8)   /   2 = 3",
+    "operation": "-"
+  },
+  {
+    "question": "(18 ? 6)   /   2 = 6",
+    "operation": "-"
+  },
+  {
+    "question": "(5 ? 3)   /   4 = 2",
+    "operation": "+"
+  },
+  {
+    "question": "(13 ? 9)   -   3 = 1",
+    "operation": "-"
+  },
+  {
+    "question": "(12 ? 8)   -   14 = 6",
+    "operation": "+"
+  },
+  {
+    "question": "(9 ? 4)   /   18 = 2",
+    "operation": "*"
+  },
+  {
+    "question": "(19 ? 8)   *   9 = 99",
+    "operation": "-"
+  },
+  {
+    "question": "(3 ? 3)   *   3 = 18",
+    "operation": "+"
+  },
+  {
+    "question": "(12 ? 3)   -   6 = 3",
+    "operation": "-"
+  },
+  {
+    "question": "(16 ? 2)   -   7 = 1",
+    "operation": "/"
+  },
+  {
+    "question": "(8 ? 4)   +   3 = 7",
+    "operation": "-"
+  },
+  {
+    "question": "(6 ? 6)   /   3 = 12",
+    "operation": "*"
+  },
+  {
+    "question": "(3 ? 3)   +   7 = 16",
+    "operation": "*"
+  },
+  {
+    "question": "(8 ? 5)   *   3 = 9",
+    "operation": "-"
+  },
+  {
+    "question": "(6 ? 6)   -   12 = 0",
+    "operation": "+"
+  },
+  {
+    "question": "(14 ? 5)   -   3 = 6",
+    "operation": "-"
+  },
+  {
+    "question": "(18 ? 5)   -   6 = 17",
+    "operation": "+"
+  },
+  {
+    "question": "(10 ? 8)   +   9 = 27",
+    "operation": "+"
+  },
+  {
+    "question": "(15 ? 12)   -   3 = 0",
+    "operation": "-"
+  },
+  {
+    "question": "(17 ? 3)   -   6 = 14",
+    "operation": "+"
+  },
+  {
+    "question": "(20 ? 3)   -   47 = 13",
+    "operation": "*"
+  },
+  {
+    "question": "(7 ? 5)   -   11 = 24",
+    "operation": "*"
+  },
+  {
+    "question": "(17 ? 12)   +   3 = 8",
+    "operation": "-"
+  },
+  {
+    "question": "(15 ? 11)   +   4 = 8",
+    "operation": "-"
+  },
+  {
+    "question": "(17 ? 7)   +   18 = 42",
+    "operation": "+"
+  },
+  {
+    "question": "(14 ? 5)   +   7 = 26",
+    "operation": "+"
+  },
+  {
+    "question": "(20 ? 10)   +   25 = 55",
+    "operation": "+"
+  },
+  {
+    "question": "(10 ? 5)   *   3 = 15",
+    "operation": "-"
+  },
+  {
+    "question": "(8 ? 6)   -   4 = 44",
+    "operation": "*"
+  },
+  {
+    "question": "(18 ? 14)   -   29 = 3",
+    "operation": "+"
+  },
+  {
+    "question": "(13 ? 3)   -   10 = 0",
+    "operation": "-"
+  },
+  {
+    "question": "(9 ? 7)   -   38 = 25",
+    "operation": "*"
+  },
+  {
+    "question": "(4 ? 3)   -   8 = 4",
+    "operation": "*"
+  },
+  {
+    "question": "(6 ? 5)   *   6 = 66",
+    "operation": "+"
+  },
+  {
+    "question": "(8 ? 2)   -   4 = 0",
+    "operation": "/"
+  },
+  {
+    "question": "(5 ? 5)   -   8 = 17",
+    "operation": "*"
+  },
+  {
+    "question": "(18 ? 4)   /   2 = 11",
+    "operation": "+"
+  },
+  {
+    "question": "(4 ? 3)   -   3 = 4",
+    "operation": "+"
+  },
+  {
+    "question": "(10 ? 2)   -   5 = 0",
+    "operation": "/"
+  },
+  {
+    "question": "(12 ? 10)   +   21 = 43",
+    "operation": "+"
+  },
+  {
+    "question": "(16 ? 8)   *   4 = 32",
+    "operation": "-"
+  },
+  {
+    "question": "(3 ? 3)   *   9 = 81",
+    "operation": "*"
+  },
+  {
+    "question": "(16 ? 13)   -   192 = 16",
+    "operation": "*"
+  },
+  {
+    "question": "(13 ? 4)   -   7 = 45",
+    "operation": "*"
+  },
+  {
+    "question": "(10 ? 9)   /   2 = 45",
+    "operation": "*"
+  },
+  {
+    "question": "(20 ? 9)   -   12 = 17",
+    "operation": "+"
+  },
+  {
+    "question": "(16 ? 10)   +   4 = 30",
+    "operation": "+"
+  },
+  {
+    "question": "(10 ? 4)   *   6 = 36",
+    "operation": "-"
+  },
+  {
+    "question": "(14 ? 3)   -   4 = 7",
+    "operation": "-"
+  },
+  {
+    "question": "(5 ? 4)   -   4 = 5",
+    "operation": "+"
+  },
+  {
+    "question": "(6 ? 3)   -   3 = 0",
+    "operation": "-"
+  },
+  {
+    "question": "(3 ? 3)   -   5 = 1",
+    "operation": "+"
+  },
+  {
+    "question": "(7 ? 5)   /   7 = 5",
+    "operation": "*"
+  },
+  {
+    "question": "(12 ? 7)   *   3 = 15",
+    "operation": "-"
+  },
+  {
+    "question": "(10 ? 5)   +   25 = 75",
+    "operation": "*"
+  },
+  {
+    "question": "(9 ? 3)   -   3 = 0",
+    "operation": "/"
+  },
+  {
+    "question": "(15 ? 5)   -   7 = 13",
+    "operation": "+"
+  },
+  {
+    "question": "(16 ? 2)   /   2 = 4",
+    "operation": "/"
+  },
+  {
+    "question": "(16 ? 5)   -   12 = 68",
+    "operation": "*"
+  },
+  {
+    "question": "(11 ? 6)   *   4 = 20",
+    "operation": "-"
+  },
+  {
+    "question": "(11 ? 7)   +   5 = 23",
+    "operation": "+"
+  },
+  {
+    "question": "(5 ? 5)   +   4 = 14",
+    "operation": "+"
+  },
+  {
+    "question": "(17 ? 10)   -   5 = 2",
+    "operation": "-"
+  },
+  {
+    "question": "(14 ? 2)   +   3 = 10",
+    "operation": "/"
+  },
+  {
+    "question": "(4 ? 4)   *   7 = 56",
+    "operation": "+"
+  },
+  {
+    "question": "(16 ? 2)   /   2 = 4",
+    "operation": "/"
+  },
+  {
+    "question": "(18 ? 2)   -   5 = 4",
+    "operation": "/"
+  },
+  {
+    "question": "(16 ? 4)   +   4 = 8",
+    "operation": "/"
+  },
+  {
+    "question": "(11 ? 3)   +   20 = 53",
+    "operation": "*"
+  },
+  {
+    "question": "(15 ? 6)   -   5 = 4",
+    "operation": "-"
+  },
+  {
+    "question": "(6 ? 3)   +   3 = 6",
+    "operation": "-"
+  },
+  {
+    "question": "(8 ? 7)   -   5 = 10",
+    "operation": "+"
+  },
+  {
+    "question": "(8 ? 8)   +   5 = 21",
+    "operation": "+"
+  },
+  {
+    "question": "(15 ? 6)   *   9 = 81",
+    "operation": "-"
+  },
+  {
+    "question": "(9 ? 4)   +   5 = 10",
+    "operation": "-"
+  },
+  {
+    "question": "(11 ? 4)   *   3 = 21",
+    "operation": "-"
+  },
+  {
+    "question": "(15 ? 3)   *   5 = 25",
+    "operation": "/"
+  },
+  {
+    "question": "(8 ? 6)   +   6 = 20",
+    "operation": "+"
+  },
+  {
+    "question": "(8 ? 2)   -   4 = 0",
+    "operation": "/"
+  },
+  {
+    "question": "(18 ? 7)   -   6 = 5",
+    "operation": "-"
+  },
+  {
+    "question": "(8 ? 4)   -   9 = 3",
+    "operation": "+"
+  },
+  {
+    "question": "(7 ? 4)   -   10 = 1",
+    "operation": "+"
+  },
+  {
+    "question": "(20 ? 9)   /   15 = 12",
+    "operation": "*"
+  },
+  {
+    "question": "(12 ? 11)   +   12 = 35",
+    "operation": "+"
+  },
+  {
+    "question": "(18 ? 5)   /   45 = 2",
+    "operation": "*"
+  },
+  {
+    "question": "(9 ? 4)   *   4 = 20",
+    "operation": "-"
+  },
+  {
+    "question": "(18 ? 12)   +   3 = 9",
+    "operation": "-"
+  },
+  {
+    "question": "(9 ? 9)   /   2 = 9",
+    "operation": "+"
+  },
+  {
+    "question": "(17 ? 3)   *   3 = 42",
+    "operation": "-"
+  },
+  {
+    "question": "(8 ? 6)   +   14 = 28",
+    "operation": "+"
+  },
+  {
+    "question": "(14 ? 14)   -   139 = 57",
+    "operation": "*"
+  },
+  {
+    "question": "(6 ? 6)   +   33 = 69",
+    "operation": "*"
+  },
+  {
+    "question": "(4 ? 4)   +   9 = 25",
+    "operation": "*"
+  },
+  {
+    "question": "(12 ? 2)   -   4 = 2",
+    "operation": "/"
+  },
+  {
+    "question": "(6 ? 4)   +   3 = 13",
+    "operation": "+"
+  },
+  {
+    "question": "(7 ? 5)   /   7 = 5",
+    "operation": "*"
+  },
+  {
+    "question": "(10 ? 7)   *   3 = 9",
+    "operation": "-"
+  },
+  {
+    "question": "(19 ? 19)   /   19 = 2",
+    "operation": "+"
+  },
+  {
+    "question": "(10 ? 7)   +   12 = 29",
+    "operation": "+"
+  },
+  {
+    "question": "(3 ? 3)   -   4 = 2",
+    "operation": "+"
+  },
+  {
+    "question": "(7 ? 4)   +   9 = 20",
+    "operation": "+"
+  },
+  {
+    "question": "(19 ? 3)   +   3 = 19",
+    "operation": "-"
+  },
+  {
+    "question": "(5 ? 3)   -   5 = 3",
+    "operation": "+"
+  },
+  {
+    "question": "(13 ? 12)   /   52 = 3",
+    "operation": "*"
+  },
+  {
+    "question": "(12 ? 6)   +   8 = 26",
+    "operation": "+"
+  },
+  {
+    "question": "(8 ? 5)   +   3 = 6",
+    "operation": "-"
+  },
+  {
+    "question": "(13 ? 4)   +   7 = 24",
+    "operation": "+"
+  },
+  {
+    "question": "(14 ? 2)   *   3 = 21",
+    "operation": "/"
+  },
+  {
+    "question": "(17 ? 11)   -   17 = 11",
+    "operation": "+"
+  },
+  {
+    "question": "(9 ? 8)   -   25 = 47",
+    "operation": "*"
+  },
+  {
+    "question": "(4 ? 3)   +   7 = 14",
+    "operation": "+"
+  },
+  {
+    "question": "(8 ? 4)   +   20 = 52",
+    "operation": "*"
+  },
+  {
+    "question": "(3 ? 3)   *   4 = 36",
+    "operation": "*"
+  },
+  {
+    "question": "(12 ? 8)   /   2 = 10",
+    "operation": "+"
+  },
+  {
+    "question": "(19 ? 14)   -   30 = 3",
+    "operation": "+"
+  },
+  {
+    "question": "(12 ? 5)   -   58 = 2",
+    "operation": "*"
+  },
+  {
+    "question": "(4 ? 4)   -   7 = 9",
+    "operation": "*"
+  },
+  {
+    "question": "(10 ? 5)   -   11 = 4",
+    "operation": "+"
+  },
+  {
+    "question": "(3 ? 3)   /   2 = 3",
+    "operation": "+"
+  },
+  {
+    "question": "(8 ? 3)   *   5 = 25",
+    "operation": "-"
+  },
+  {
+    "question": "(11 ? 6)   /   22 = 3",
+    "operation": "*"
+  },
+  {
+    "question": "(9 ? 6)   -   50 = 4",
+    "operation": "*"
+  },
+  {
+    "question": "(10 ? 7)   -   15 = 2",
+    "operation": "+"
+  },
+  {
+    "question": "(6 ? 6)   +   7 = 43",
+    "operation": "*"
+  },
+  {
+    "question": "(18 ? 3)   -   5 = 1",
+    "operation": "/"
+  },
+  {
+    "question": "(10 ? 6)   +   4 = 8",
+    "operation": "-"
+  },
+  {
+    "question": "(8 ? 5)   +   3 = 6",
+    "operation": "-"
+  },
+  {
+    "question": "(9 ? 4)   -   4 = 9",
+    "operation": "+"
+  },
+  {
+    "question": "(17 ? 3)   +   13 = 27",
+    "operation": "-"
+  },
+  {
+    "question": "(12 ? 11)   /   44 = 3",
+    "operation": "*"
+  },
+  {
+    "question": "(19 ? 15)   /   2 = 17",
+    "operation": "+"
+  },
+  {
+    "question": "(16 ? 16)   +   23 = 55",
+    "operation": "+"
+  },
+  {
+    "question": "(5 ? 3)   +   4 = 12",
+    "operation": "+"
+  },
+  {
+    "question": "(3 ? 3)   +   5 = 11",
+    "operation": "+"
+  },
+  {
+    "question": "(9 ? 3)   -   3 = 0",
+    "operation": "/"
+  },
+  {
+    "question": "(3 ? 3)   -   3 = 6",
+    "operation": "*"
+  },
+  {
+    "question": "(5 ? 5)   -   3 = 7",
+    "operation": "+"
+  },
+  {
+    "question": "(10 ? 7)   +   4 = 21",
+    "operation": "+"
+  },
+  {
+    "question": "(11 ? 3)   +   6 = 14",
+    "operation": "-"
+  },
+  {
+    "question": "(16 ? 2)   -   4 = 4",
+    "operation": "/"
+  },
+  {
+    "question": "(5 ? 5)   -   13 = 12",
+    "operation": "*"
+  },
+  {
+    "question": "(19 ? 3)   +   5 = 27",
+    "operation": "+"
+  },
+  {
+    "question": "(15 ? 5)   +   3 = 6",
+    "operation": "/"
+  },
+  {
+    "question": "(9 ? 6)   +   28 = 82",
+    "operation": "*"
+  },
+  {
+    "question": "(9 ? 6)   /   6 = 9",
+    "operation": "*"
+  },
+  {
+    "question": "(6 ? 4)   /   3 = 8",
+    "operation": "*"
+  },
+  {
+    "question": "(7 ? 7)   -   32 = 17",
+    "operation": "*"
+  },
+  {
+    "question": "(19 ? 19)   -   19 = 19",
+    "operation": "+"
+  },
+  {
+    "question": "(14 ? 2)   -   5 = 2",
+    "operation": "/"
+  },
+  {
+    "question": "(12 ? 10)   +   19 = 41",
+    "operation": "+"
+  },
+  {
+    "question": "(15 ? 5)   *   3 = 9",
+    "operation": "/"
+  },
+  {
+    "question": "(17 ? 10)   +   17 = 44",
+    "operation": "+"
+  },
+  {
+    "question": "(19 ? 13)   -   4 = 28",
+    "operation": "+"
+  },
+  {
+    "question": "(6 ? 4)   +   3 = 13",
+    "operation": "+"
+  },
+  {
+    "question": "(3 ? 3)   +   8 = 17",
+    "operation": "*"
+  },
+  {
+    "question": "(13 ? 4)   -   14 = 3",
+    "operation": "+"
+  },
+  {
+    "question": "(14 ? 10)   +   4 = 8",
+    "operation": "-"
+  },
+  {
+    "question": "(9 ? 3)   -   3 = 0",
+    "operation": "/"
+  },
+  {
+    "question": "(20 ? 20)   -   14 = 26",
+    "operation": "+"
+  },
+  {
+    "question": "(16 ? 5)   /   40 = 2",
+    "operation": "*"
+  },
+  {
+    "question": "(8 ? 7)   -   44 = 12",
+    "operation": "*"
+  },
+  {
+    "question": "(16 ? 16)   -   170 = 86",
+    "operation": "*"
+  },
+  {
+    "question": "(7 ? 7)   -   14 = 0",
+    "operation": "+"
+  },
+  {
+    "question": "(20 ? 5)   -   4 = 0",
+    "operation": "/"
+  },
+  {
+    "question": "(17 ? 5)   +   4 = 16",
+    "operation": "-"
+  },
+  {
+    "question": "(6 ? 6)   -   17 = 19",
+    "operation": "*"
+  },
+  {
+    "question": "(4 ? 4)   -   3 = 13",
+    "operation": "*"
+  },
+  {
+    "question": "(3 ? 3)   -   6 = 0",
+    "operation": "+"
+  },
+  {
+    "question": "(6 ? 6)   +   8 = 20",
+    "operation": "+"
+  },
+  {
+    "question": "(17 ? 11)   +   4 = 10",
+    "operation": "-"
+  },
+  {
+    "question": "(16 ? 2)   /   4 = 2",
+    "operation": "/"
+  },
+  {
+    "question": "(9 ? 3)   /   2 = 3",
+    "operation": "-"
+  },
+  {
+    "question": "(10 ? 5)   *   4 = 20",
+    "operation": "-"
+  },
+  {
+    "question": "(10 ? 10)   /   20 = 5",
+    "operation": "*"
+  },
+  {
+    "question": "(16 ? 10)   +   3 = 29",
+    "operation": "+"
+  },
+  {
+    "question": "(7 ? 3)   -   9 = 1",
+    "operation": "+"
+  },
+  {
+    "question": "(9 ? 5)   +   3 = 7",
+    "operation": "-"
+  },
+  {
+    "question": "(13 ? 5)   +   7 = 15",
+    "operation": "-"
+  },
+  {
+    "question": "(16 ? 11)   -   91 = 85",
+    "operation": "*"
+  },
+  {
+    "question": "(14 ? 4)   +   30 = 86",
+    "operation": "*"
+  },
+  {
+    "question": "(14 ? 10)   +   11 = 35",
+    "operation": "+"
+  },
+  {
+    "question": "(20 ? 14)   -   3 = 3",
+    "operation": "-"
+  },
+  {
+    "question": "(17 ? 7)   /   7 = 17",
+    "operation": "*"
+  },
+  {
+    "question": "(8 ? 2)   +   3 = 7",
+    "operation": "/"
+  },
+  {
+    "question": "(4 ? 4)   *   3 = 48",
+    "operation": "*"
+  },
+  {
+    "question": "(13 ? 4)   /   13 = 4",
+    "operation": "*"
+  },
+  {
+    "question": "(9 ? 7)   +   5 = 21",
+    "operation": "+"
+  },
+  {
+    "question": "(14 ? 6)   *   6 = 48",
+    "operation": "-"
+  },
+  {
+    "question": "(19 ? 5)   +   12 = 26",
+    "operation": "-"
+  },
+  {
+    "question": "(10 ? 3)   -   7 = 6",
+    "operation": "+"
+  },
+  {
+    "question": "(18 ? 3)   +   4 = 10",
+    "operation": "/"
+  },
+  {
+    "question": "(20 ? 6)   /   20 = 6",
+    "operation": "*"
+  },
+  {
+    "question": "(18 ? 4)   +   12 = 34",
+    "operation": "+"
+  },
+  {
+    "question": "(7 ? 4)   -   3 = 0",
+    "operation": "-"
+  }
+]
+}
