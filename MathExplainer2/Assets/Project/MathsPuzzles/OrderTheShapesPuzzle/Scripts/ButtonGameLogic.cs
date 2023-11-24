@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using DG.Tweening;
 
 public class ButtonGameLogic : MonoBehaviour
 {
@@ -12,7 +13,11 @@ public class ButtonGameLogic : MonoBehaviour
     [SerializeField] int lowerSizeLimit = 20;
     [SerializeField] int upperSizeLimit = 50;
 
+    [SerializeField] Color[] buttonColors;
+
     public static int index;
+
+    static int dummyNum = 1; //used to change tween rotation direction
 
     // Start is called before the first frame update
 
@@ -23,10 +28,21 @@ public class ButtonGameLogic : MonoBehaviour
 
     private void Start()
     {
+        dummyNum *= -1;
+
+        transform.DOScale(new Vector3(2, 2, 2), 1f);
+        transform.DORotate(new Vector3(0, 0, 360 * dummyNum), Random.Range(2f, 15f), RotateMode.FastBeyond360).SetLoops(-1, LoopType.Restart).SetEase(Ease.Linear);
+
+        //Change Button Size and Font size randomly
         int randomNum = Random.Range(lowerSizeLimit, upperSizeLimit);
-        GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, randomNum*3);
+        GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, randomNum * 3);
         GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, randomNum * 3);
         myText.fontSize = randomNum;
+
+        //Change Color Randomly
+        gameObject.GetComponent<Image>().color = buttonColors[Random.Range(0, buttonColors.Length)];
+
+        //Give each button a number
         myText.text = BigPuzzleGameManager.instance.numbers[index++].ToString();
     }
 
@@ -58,5 +74,10 @@ public class ButtonGameLogic : MonoBehaviour
             index = 0;
         }
         Destroy(gameObject);
+    }
+
+    private void OnDestroy()
+    {
+        transform.DOKill();
     }
 }

@@ -457,17 +457,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bigPrefab: {fileID: 3068925696142909159, guid: b8320fda5ae3e1b44a3182d6d94a79a6, type: 3}
-  spawnPos:
+  spawnPoints:
   - {fileID: 1910928730}
   - {fileID: 835180272}
   - {fileID: 255503515}
   - {fileID: 640287557}
+  spawnPointsUsed: 00000000
   rightAnsUI: {fileID: 1008776777}
   wrongAnsUI: {fileID: 154417429}
   scoreText: {fileID: 1553794653}
   numbers: 
   currentNum: 0
   index: 0
+  difficulty: 1
 --- !u!1 &835180271
 GameObject:
   m_ObjectHideFlags: 0

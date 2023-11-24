@@ -69,7 +69,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 65a9e3f647eac604fa4be202e9ffea69, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c76f64156d5e9864db9599095ed8a0a7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -137,7 +137,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myText: {fileID: 8342337204791776763}
   lowerSizeLimit: 30
-  upperSizeLimit: 80
+  upperSizeLimit: 50
+  buttonColors:
+  - {r: 0.61960787, g: 0.7411765, b: 0.43137255, a: 1}
+  - {r: 0.9607843, g: 0.39215687, b: 0.4627451, a: 1}
+  - {r: 0.8745098, g: 0.73333335, b: 0.69411767, a: 1}
+  - {r: 0, g: 0.5529412, b: 0.8352941, a: 1}
 --- !u!1 &8165877408641078149
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,8 +211,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 25
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3592f7b182e67a74fbb34a01b319d1fd, type: 2}
+  m_sharedMaterial: {fileID: -8701890848583548321, guid: 3592f7b182e67a74fbb34a01b319d1fd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

@@ -1,13 +1,15 @@
 using System;
 using System.Collections;
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class BigPuzzleGameManager : MonoBehaviour
 {
     [SerializeField] GameObject bigPrefab; //It's a button
 
-    [SerializeField] Transform[] spawnPos;
+    [SerializeField] Transform[] spawnPoints;
+    [SerializeField] bool[] spawnPointsUsed;
 
     [SerializeField] GameObject rightAnsUI;
     [SerializeField] GameObject wrongAnsUI;
@@ -26,6 +28,8 @@ public class BigPuzzleGameManager : MonoBehaviour
 
     public int difficulty = 1;
 
+    Timer timer;
+
     private void Awake()
     {
         instance = this;
@@ -33,18 +37,62 @@ public class BigPuzzleGameManager : MonoBehaviour
 
     private void Start()
     {
+        timer = GetComponent<Timer>();
         SpawnBigPuzzle();
     }
 
     public void SpawnBigPuzzle()
     {
+        ResetspawnPoints();
         numbers = GenerateNumbers();
-        for(int i = 0; i < spawnPos.Length && i < difficulty + 1; i++)
+        Debug.Log($"{numbers[0]} {numbers[1]} {numbers[2]} {numbers[3]}");
+        for(int i = 0; i < spawnPoints.Length && i < difficulty + 1; i++)
         {
-            Instantiate(bigPrefab, spawnPos[i]);
+            Vector3 prefabspawnPoints = RandomSpawnPoints() + new Vector3(UnityEngine.Random.Range(-150, 150), 0, 0);
+            Instantiate(bigPrefab, prefabspawnPoints, Quaternion.identity, spawnPoints[i]);
         }
         Array.Sort(numbers);
         currentNum = numbers[0];
+    }
+
+    void ResetspawnPoints()
+    {
+        for(int i  = 0; i< spawnPointsUsed.Length;i++)
+        {
+            spawnPointsUsed[i] = false;
+        }
+    }
+
+    Vector3 RandomSpawnPoints()
+    {
+
+         // Iterate until a valid spawn point is found
+         int randomIndex;
+         do
+         {
+             // Get a random index from the array
+             randomIndex = UnityEngine.Random.Range(0, spawnPoints.Length);
+
+         } while (spawnPointsUsed[randomIndex]); // Repeat if the spawn point is already used
+
+         // Mark the spawn point as used
+         spawnPointsUsed[randomIndex] = true;
+
+         // Get the random transform from the array
+         return spawnPoints[randomIndex].position;
+
+    }
+
+    private void Update()
+    {
+        if (timer.remainingDuration == 40)
+        {
+            difficulty = 2;
+        }
+        if (timer.remainingDuration == 20)
+        {
+            difficulty = 3;
+        }
     }
 
     public void UpdateCurrentNum()
@@ -90,18 +138,20 @@ public class BigPuzzleGameManager : MonoBehaviour
     {
         index = 0;
         int[] numbers = {0, 0, 0, 0};
-        for(int i = 0; i < numbers.Length; i++)
+        int randomNum;
+        for (int i = 0; i < numbers.Length; i++)
         {
-            while (true)
+            while(true)
             {
-                int randomNum = UnityEngine.Random.Range(1, 100);
-                if (!numbers.Contains(randomNum))
-                {
+                randomNum = UnityEngine.Random.Range(-50, 100);
+                if (!numbers.Contains(randomNum)){
                     numbers[i] = randomNum;
                     break;
                 }
             }
+
         }
         return numbers;
     }
+
 }
