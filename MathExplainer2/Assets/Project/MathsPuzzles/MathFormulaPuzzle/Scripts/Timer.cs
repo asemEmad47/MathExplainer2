@@ -55,8 +55,8 @@ public class Timer : MonoBehaviour
 
     private void OnEnd()
     {
-        GameManager.instance.DisableButtons();
-        GameManager.instance.EndGame();
+        //DisableButtons();
+        //EndGame();
         uiFill.fillAmount = 0;
         isDone = true;
         print("End");
