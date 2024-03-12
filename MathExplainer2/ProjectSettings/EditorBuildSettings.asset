@@ -5,7 +5,37 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Project/MathsProblemsEnglish/Scenes/SampleScene.unity
+  - enabled: 0
+    path: Assets/Buttons/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Project/MathsProblemsEnglish/Intro/Scene/IntroScene.unity
+    guid: 0c02a9a78a05c7d41a64ec9e8d801350
+  - enabled: 1
+    path: Assets/Project/MathsProblemsEnglish/PageDitector/DirectorScene.unity
+    guid: e16768c6acbd73049b1ea2afef590c57
+  - enabled: 1
+    path: Assets/Project/MathsPuzzles/MathFormulaPuzzle/Scenes/ChooseTheOperation.unity
+    guid: 7239fdf9b62035740a0a587fb8bd0aba
+  - enabled: 1
+    path: Assets/Project/MathsPuzzles/OrderTheShapesPuzzle/OrderTheShapes.unity
+    guid: 8d73d68120b8dd0469026bd94fae5044
+  - enabled: 1
+    path: Assets/Project/MathsProblemsEnglish/2Eqs/Scenes/SolvingTwoEqs.unity
+    guid: ecc46e00a243032498e2f02deea4ea2b
+  - enabled: 1
+    path: Assets/Project/MathsProblemsEnglish/Addition/Scenes/AdditionScene.unity
+    guid: 4700b36b798bb634bb078a9be9384318
+  - enabled: 1
+    path: Assets/Project/MathsProblemsEnglish/BasicOp/Scene/BasicOpScene.unity
+    guid: c020948545fe04284a84946237874206
+  - enabled: 1
+    path: Assets/Project/MathsProblemsEnglish/MathProblemsPage/MathProblemPage.unity
+    guid: d219caf8df3cdf9429d92a1756a0482e
+  - enabled: 1
+    path: Assets/Project/MathsProblemsEnglish/StrightLine/Scenes/SlEqsScene.unity
+    guid: 83e5bf5b183eae542849b49941c8bcba
+  - enabled: 1
+    path: Assets/Project/MathsPuzzles/GamesHome/GamesHomeScene.unity
+    guid: b5752e78b8bcd8a419ffd8e07c65c0c2
   m_configObjects: {}

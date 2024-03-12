@@ -2,19 +2,23 @@ using UnityEngine;
 
 public class Term : MonoBehaviour
 {
-    private string Symbol;
-    private char sign;
-    private int number = 0;
+    private readonly string Symbol;
+    private readonly char sign;
+    private readonly int number = 0;
 
-    private int nue;
-    private int Deno;
-    public Term(string symbol, char sign , int nue = 0 , int deno = 0, int number = 0)
+    private readonly int nue;
+    private readonly int Deno;
+    private readonly int NumPow = 0;
+    private readonly int SymbPow = 0;
+    public Term(string symbol, char sign , int nue = 0 , int deno = 0, int number = 0,int NumPow = 0,int SymbPow = 0)
     {
         this.Symbol = symbol;
         this.number = number;
         this.sign = sign;
         this.nue = nue;
         this.Deno = deno;
+        this.NumPow = NumPow;
+        this.SymbPow = SymbPow;
     }
 
     public string GetSymbol()
@@ -38,5 +42,14 @@ public class Term : MonoBehaviour
     public char GetSign()
     {
         return sign;
+    }
+
+    public int GetNumPow()
+    {
+        return NumPow;
+    }    
+    public int GetSymbPow()
+    {
+        return SymbPow;
     }
 }

@@ -1,6 +1,7 @@
-using System.Collections;
+﻿using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AdditionScript : MonoBehaviour
 {
@@ -10,16 +11,25 @@ public class AdditionScript : MonoBehaviour
     [SerializeField] private TextMeshProUGUI SecNumPlace;
     [SerializeField] private TextMeshProUGUI Line;
     [SerializeField] private TextMeshProUGUI sign;
-    private AudioClip[] voiceClips;
-    private AudioClip[] Numbers;
+    [SerializeField] private TextMeshProUGUI ExplainTxt;
+    [SerializeField] private TextMeshProUGUI LangBtnTxt;
+    [SerializeField] private TextMeshProUGUI FirstPlaceHolder;
+    [SerializeField] private TextMeshProUGUI ScndPlaceHolder;
+    [SerializeField] private Button LangBtn;
     private AudioClip[] loop;
     public static AudioSource audioSource;
     private bool Explain = false;
+    string SpeakerName = "_Heba_Eng";
+    bool IsEng = true;
+    public void Start()
+    {
+        LoadAllAudioClips();
+        LangBtn.onClick.AddListener(LangBtnClick);
+    }
     public void explain()
     {
         Explain = true;
         audioSource = GetComponent<AudioSource>();
-        LoadAllAudioClips();
         StartCoroutine(solve());
     }
 
@@ -62,17 +72,19 @@ public class AdditionScript : MonoBehaviour
         {
             ResetAllValues();
             FillWithZeros(" ");
-            yield return (StartCoroutine(AdditionVoiceSpeaker.PlayByAddress("AdditionTerms/AdditionSound/1-write")));
+            yield return (StartCoroutine(AdditionVoiceSpeaker.PlayByAddress("AdditionTerms/AdditionSound/first" + SpeakerName)));
+
+            yield return (StartCoroutine(AdditionVoiceSpeaker.PlayByAddress("AdditionTerms/AdditionSound/write the first number" + SpeakerName)));
 
             FirstNumPlace.gameObject.SetActive(true);
 
-            yield return (StartCoroutine(AdditionVoiceSpeaker.PlayByAddress("AdditionTerms/AdditionSound/2-then")));
+            yield return (StartCoroutine(AdditionVoiceSpeaker.PlayByAddress("AdditionTerms/AdditionSound/then" + SpeakerName)));
 
-            yield return (StartCoroutine(AdditionVoiceSpeaker.PlayByAddress("AdditionTerms/AdditionSound/3-write the secondNumber")));
+            yield return (StartCoroutine(AdditionVoiceSpeaker.PlayByAddress("AdditionTerms/AdditionSound/write the second number" + SpeakerName)));
 
             SecNumPlace.gameObject.SetActive(true);
             sign.gameObject.SetActive(true);
-            yield return (StartCoroutine(AdditionVoiceSpeaker.PlayByAddress("AdditionTerms/AdditionSound/4-put zeros in empty digits_Sonya_Eng")));
+            yield return (StartCoroutine(AdditionVoiceSpeaker.PlayByAddress("AdditionTerms/AdditionSound/put zeros in empty digits" + SpeakerName)));
 
             FillWithZeros("0");
             Line.gameObject.SetActive(true);
@@ -100,7 +112,7 @@ public class AdditionScript : MonoBehaviour
                                 {
                                     yield return (StartCoroutine(AdditionVoiceSpeaker.PlayVoiceNumberAndWait("1")));
 
-                                    yield return (StartCoroutine(AdditionVoiceSpeaker.PlayByAddress("AdditionTerms/AdditionSound/8-plus")));
+                                    yield return (StartCoroutine(AdditionVoiceSpeaker.PlayByAddress("AdditionTerms/AdditionSound/plus" + SpeakerName)));
 
                                 }
                                 if (j == 0)
@@ -117,7 +129,7 @@ public class AdditionScript : MonoBehaviour
                                     string temp2 = FirstNumPlace.text.Substring(i + 1);
                                     temp += $"<color=#{UnityEngine.ColorUtility.ToHtmlStringRGB(Color.red)}>{FNum}</color>";
                                     FirstNumPlace.text = temp + temp2;
-                                    yield return (StartCoroutine(AdditionVoiceSpeaker.PlayByAddress("AdditionTerms/AdditionSound/8-plus")));
+                                    yield return (StartCoroutine(AdditionVoiceSpeaker.PlayByAddress("AdditionTerms/AdditionSound/plus" + SpeakerName)));
 
                                     yield return (StartCoroutine(AdditionVoiceSpeaker.PlayVoiceNumberAndWait(SNum)));
 
@@ -127,6 +139,7 @@ public class AdditionScript : MonoBehaviour
                                     SecNumPlace.text = temp + temp2;
                                 }
                                 audioSource.clip = loop[j];
+                                Debug.Log(loop[j].name);
                                 audioSource.Play();
                                 yield return new WaitForSeconds(audioSource.clip.length);
                                 if (j == 0)
@@ -181,12 +194,12 @@ public class AdditionScript : MonoBehaviour
                                 yield return (StartCoroutine(AdditionVoiceSpeaker.PlayVoiceNumberAndWait(result.ToString())));
 
                                 result -= 10;
-                                yield return (StartCoroutine(AdditionVoiceSpeaker.PlayByAddress("AdditionTerms/AdditionSound/5-put")));
+                                yield return (StartCoroutine(AdditionVoiceSpeaker.PlayByAddress("AdditionTerms/AdditionSound/put" + SpeakerName)));
 
                                 yield return (StartCoroutine(AdditionVoiceSpeaker.PlayVoiceNumberAndWait(result.ToString())));
 
                                 InstantiateText((result).ToString(), characterPosition.x + 15, characterPosition.y, -350, true);
-                                yield return (StartCoroutine(AdditionVoiceSpeaker.PlayByAddress("AdditionTerms/AdditionSound/12-and carry up one_Sonya_Eng")));
+                                yield return (StartCoroutine(AdditionVoiceSpeaker.PlayByAddress("AdditionTerms/AdditionSound/and carry up one" + SpeakerName)));
 
                                 if (i - 1 >= 0)
                                 {
@@ -237,7 +250,7 @@ public class AdditionScript : MonoBehaviour
 
             foreach (TextMeshProUGUI textMeshPro in textMeshPros)
             {
-                if(!textMeshPro.name.Equals("Placeholder") && !textMeshPro.name.Equals("Text") && !textMeshPro.name.Equals("Text (TMP)")&& !textMeshPro.name.Equals("Sign2")&& !textMeshPro.name.Equals("Sign")&& !textMeshPro.name.Equals("FirstNumPlace") && !textMeshPro.name.Equals("SecNumPlace") && !textMeshPro.name.Equals("Line"))
+                if(!textMeshPro.name.Equals("Placeholder") && !textMeshPro.name.Equals("Text") && !textMeshPro.name.Equals("Text (TMP)")&& !textMeshPro.name.Equals("Sign2")&& !textMeshPro.name.Equals("Sign")&&!textMeshPro.name.Equals("LangBtnTxt") && !textMeshPro.name.Equals("FirstNumPlace") && !textMeshPro.name.Equals("SecNumPlace") && !textMeshPro.name.Equals("Line"))
                     Destroy(textMeshPro);
             }
         }
@@ -248,10 +261,34 @@ public class AdditionScript : MonoBehaviour
         SecNumPlace.gameObject.SetActive(false) ;
         sign.gameObject.SetActive(false) ;
     }
-    void LoadAllAudioClips()
+    public void LoadAllAudioClips()
     {
-        voiceClips = Resources.LoadAll<AudioClip>("AdditionTerms/AdditionSound");
-        Numbers = Resources.LoadAll<AudioClip>("AdditionTerms/EngNums");
-        loop = Resources.LoadAll<AudioClip>("AdditionTerms/AdditionSound/Loop");
+        loop = Resources.LoadAll<AudioClip>("AdditionTerms/AdditionSound/EngLoop");
+    }
+    public void LangBtnClick()
+    {
+        if (IsEng)
+        {
+            SpeakerName = "_Heba_Egy";
+            loop = Resources.LoadAll<AudioClip>("AdditionTerms/AdditionSound/ArabLoop");
+            ExplainTxt.text = "ﺡﺮﺷﺍ";
+            LangBtnTxt.text = "Eng";
+            FirstPlaceHolder.text = "ﻝﻭﻻﺍ ﺩﺪﻌﻟﺍ ﺐﺘﻛﺍ";
+            ScndPlaceHolder.text = "ﻲﻧﺎﺜﻟﺍ ﺩﺪﻌﻟﺍ ﺐﺘﻛﺍ";
+            IsEng = false;
+            AdditionVoiceSpeaker.NumPlace = "EgyNums";
+        }
+        else
+        {
+
+            SpeakerName = "_Heba_Eng";
+            loop = Resources.LoadAll<AudioClip>("AdditionTerms/AdditionSound/EngLoop");
+            LangBtnTxt.text = "ﻱﺮﺼﻣ";
+            ExplainTxt.text = "Explain";
+            FirstPlaceHolder.text = "First Number";
+            ScndPlaceHolder.text = "Second Number";
+            AdditionVoiceSpeaker.NumPlace = "EngNums";
+            IsEng = true;
+        }
     }
 }

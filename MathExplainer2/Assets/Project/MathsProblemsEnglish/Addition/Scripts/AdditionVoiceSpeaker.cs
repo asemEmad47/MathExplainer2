@@ -8,6 +8,8 @@ public class AdditionVoiceSpeaker : MonoBehaviour
     public static AudioClip[] voiceClips;
     public static AudioClip[] Numbers;
     public static AudioSource audioSource;
+    public static string VoiceClipsPlace = "AdditionTerms/AdditionSound";
+    public static string NumPlace = "EngNums";
     public static IEnumerator PlayByAddress(String address)
     {
         LoadAllAudioClips();
@@ -186,7 +188,7 @@ public class AdditionVoiceSpeaker : MonoBehaviour
     }
     public static void LoadAllAudioClips()
     {
-        voiceClips = Resources.LoadAll<AudioClip>("AdditionTerms/AdditionSound");
-        Numbers = Resources.LoadAll<AudioClip>("AdditionTerms/EngNums");
+        voiceClips = Resources.LoadAll<AudioClip>(VoiceClipsPlace);
+        Numbers = Resources.LoadAll<AudioClip>(NumPlace);
     }
 }

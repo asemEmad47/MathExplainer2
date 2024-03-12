@@ -120,20 +120,28 @@ public class SolvingTwoEqs : MonoBehaviour
         {
             if (ValidateInputs(X1.text, Y1.text, Res1.text, X2.text, Y2.text, Res2.text))
             {
-                if ((float.Parse(Y1.text) > 0 && (float.Parse(Y2.text) > 0)) || (float.Parse(Y1.text) < 0 && (float.Parse(Y2.text) < 0))&& (float.Parse(Y2.text) % float.Parse(Y1.text) !=0 || float.Parse(Y2.text) % float.Parse(Y2.text) != 0)&&!Arab) {
+                if (!Arab&&(float.Parse(Y1.text) > 0 && (float.Parse(Y2.text) > 0)) || (float.Parse(Y1.text) < 0 && (float.Parse(Y2.text) < 0))&& (float.Parse(Y2.text) % float.Parse(Y1.text) !=0 || float.Parse(Y2.text) % float.Parse(Y2.text) != 0)) {
                     parent = new SubtractionEng(Circle,Arrow,X1,Y1,Res1,X2,Y2,Res2, ref Answer , ref lineRenderer);
+                    Debug.Log("here1 "+Arab);
                 }
                 else if((float.Parse(Y1.text) > 0 && (float.Parse(Y2.text) > 0)) || (float.Parse(Y1.text) < 0 && (float.Parse(Y2.text) < 0)) && Arab)
                 {
-                    //
+                    parent = new SubtractionArabic(Circle, Arrow, X1, Y1, Res1, X2, Y2, Res2, ref Answer, ref lineRenderer);
+                    Debug.Log("here2");
+
                 }
-                else if((float.Parse(Y1.text) > 0 && (float.Parse(Y2.text) < 0)) || (float.Parse(Y1.text) < 0 && (float.Parse(Y2.text) > 0)) && (float.Parse(Y2.text) % float.Parse(Y1.text) == 0 || float.Parse(Y2.text) % float.Parse(Y2.text) == 0) && !Arab)
+                else if(!Arab&&(float.Parse(Y1.text) > 0 && (float.Parse(Y2.text) < 0)) || (float.Parse(Y1.text) < 0 && (float.Parse(Y2.text) > 0)) && (float.Parse(Y2.text) % float.Parse(Y1.text) == 0 || float.Parse(Y2.text) % float.Parse(Y2.text) == 0))
                 {
                     parent = new AdditionEng(Circle, Arrow, X1, Y1, Res1, X2, Y2, Res2, ref Answer, ref lineRenderer);
+                    Debug.Log("here3");
+
                 }
                 else if ((float.Parse(Y1.text) > 0 && (float.Parse(Y2.text) < 0)) || (float.Parse(Y1.text) < 0 && (float.Parse(Y2.text) > 0)) && Arab)
                 {
-                    //
+                    parent = new AdditionAr(Circle, Arrow, X1, Y1, Res1, X2, Y2, Res2, ref Answer, ref lineRenderer);
+
+                    Debug.Log("here4");
+
                 }
                 parent.Solve();
             }
@@ -201,22 +209,30 @@ public class SolvingTwoEqs : MonoBehaviour
     {
         if (ValidateInputs(X1.text, Y1.text, Res1.text, X2.text, Y2.text, Res2.text))
         {
-            if ((float.Parse(Y1.text) > 0 && (float.Parse(Y2.text) > 0)) || (float.Parse(Y1.text) < 0 && (float.Parse(Y2.text) < 0)) && !Arab)
+
+            if (!Arab && (float.Parse(Y1.text) > 0 && (float.Parse(Y2.text) > 0)) || (float.Parse(Y1.text) < 0 && (float.Parse(Y2.text) < 0)) && (float.Parse(Y2.text) % float.Parse(Y1.text) != 0 || float.Parse(Y2.text) % float.Parse(Y2.text) != 0))
             {
                 parent = new SubtractionEng(Circle, Arrow, X1, Y1, Res1, X2, Y2, Res2, ref Answer, ref lineRenderer);
+                Debug.Log("here1 " + Arab);
             }
             else if ((float.Parse(Y1.text) > 0 && (float.Parse(Y2.text) > 0)) || (float.Parse(Y1.text) < 0 && (float.Parse(Y2.text) < 0)) && Arab)
             {
-                //
+                parent = new SubtractionArabic(Circle, Arrow, X1, Y1, Res1, X2, Y2, Res2, ref Answer, ref lineRenderer);
+                Debug.Log("here2");
+
             }
-            else if ((float.Parse(Y1.text) > 0 && (float.Parse(Y2.text) < 0)) || (float.Parse(Y1.text) < 0 && (float.Parse(Y2.text) > 0)) && !Arab)
+            else if ((float.Parse(Y1.text) > 0 && (float.Parse(Y2.text) < 0)) || (float.Parse(Y1.text) < 0 && (float.Parse(Y2.text) > 0)) && (float.Parse(Y2.text) % float.Parse(Y1.text) == 0 || float.Parse(Y2.text) % float.Parse(Y2.text) == 0) && !Arab)
             {
                 parent = new AdditionEng(Circle, Arrow, X1, Y1, Res1, X2, Y2, Res2, ref Answer, ref lineRenderer);
+                Debug.Log("here3");
+
             }
             else if ((float.Parse(Y1.text) > 0 && (float.Parse(Y2.text) < 0)) || (float.Parse(Y1.text) < 0 && (float.Parse(Y2.text) > 0)) && Arab)
             {
-                //
+                Debug.Log("here4");
+
             }
+            parent.Solve();
             StartCoroutine(SpeakSteps(parent.SolveStepByStep()));
         }
     }
@@ -242,7 +258,11 @@ public class SolvingTwoEqs : MonoBehaviour
             TextMeshProUGUI textComponent = LangButton.GetComponentInChildren<TextMeshProUGUI>();
             textComponent.alignment = TextAlignmentOptions.Center;
             textComponent.text = "Eng";
+            Answer.font = textComponent.font;
             Arab = true;
+            Answer.isRightToLeftText = true;
+            Answer.alignment = TextAlignmentOptions.Right;
+            Answer.verticalAlignment = VerticalAlignmentOptions.Top;
             Saad1.gameObject.SetActive(true);
             Saad2.gameObject.SetActive(true);
             Seen1.gameObject.SetActive(true);
@@ -256,7 +276,10 @@ public class SolvingTwoEqs : MonoBehaviour
             Arab = false;
             TextMeshProUGUI textComponent = LangButton.GetComponentInChildren<TextMeshProUGUI>();
             textComponent.alignment = TextAlignmentOptions.Center;
+            Answer.font = textComponent.font;
             textComponent.text = "ﻲﺑﺮﻋ";
+            Answer.isRightToLeftText = false;
+
             Saad1.gameObject.SetActive(false);
             Saad2.gameObject.SetActive(false);      
             Seen1.gameObject.SetActive(false);

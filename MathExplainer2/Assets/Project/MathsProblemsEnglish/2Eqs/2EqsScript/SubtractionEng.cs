@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class SubtractionEng : MonoBehaviour,TwoEqsParent
@@ -436,7 +435,6 @@ public class SubtractionEng : MonoBehaviour,TwoEqsParent
         audioSource.clip = voiceClips[index];
         clipIndex++;
         audioSource.Play();
-        Debug.Log(audioSource.clip.name);
         yield return new WaitForSeconds(audioSource.clip.length);
     }
     public List<string> SolveStepByStep()

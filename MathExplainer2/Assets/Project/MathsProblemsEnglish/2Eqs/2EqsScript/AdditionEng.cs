@@ -107,7 +107,7 @@ public class AdditionEng : MonoBehaviour, TwoEqsParent
             Answer.text += "  " + X2Sign + X2Val + "X " + " "+ Y2Sign.ToString() + " " + Y2Val + " Y = " + ResFloat2 + "\n";
         }
 
-        Answer.text += "  " +X1Sign+ X1Val + "X " + " " + Y2Sign.ToString() + " " + Y1Val + "Y = " + ResFloat1 + "<line-height=0.5em> \n</line-height>";
+        Answer.text += "  " +X1Sign+ X1Val + "X " + " " + Y1Sign.ToString() + " " + Y1Val + "Y = " + ResFloat1 + "<line-height=0.5em> \n</line-height>";
         Answer.text += "<line-height=0.5em>+\n</line-height>";
         SolvingTwoEqs.DisplayLineRender(lineRenderer, Answer);
         Answer.text += "  " +X2Sign+ X2Val + "X " + " " + Y2Sign.ToString() + " " + Y2Val + "Y = " + ResFloat2 + '\n';

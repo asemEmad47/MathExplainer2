@@ -5,25 +5,24 @@ using UnityEngine;
 public class BracketTerms : MonoBehaviour
 {
     private List<Term> terms = new List<Term>();
+    private int index = 0;
     private int number = 0;
-    private Term term;
-
-    public BracketTerms(List<Term> terms,Term term = null, int number = 0)
+    public BracketTerms(List<Term> terms, int index, int number )
     {
-        this.number = number;
+        this.index = index;
         this.terms = terms;
-        this.term = term;
+        this.number = number;
     }
-    
-    public int GetNumber()
-    {
-        return number;
-    }
+
     public List<Term> GetTerms() { 
         return terms;
     }
-    public Term GetTerm()
+    public int GetIndex()
     {
-        return term;
+        return index;
+    }
+    public int GetNumber()
+    {
+        return number;
     }
 }
