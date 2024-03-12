@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -49,11 +48,11 @@ public class LcmScript : MonoBehaviour
 
         InstatiateCircle(FrstNum.transform.position.x, FrstNum.transform.position.y - 150);
         InstantiateText(FrstNum.text);
-        GetLcm(FNum, true, FrstNum.transform.position.x-120, FrstNum.transform.position.y - 250);
+        GetLcm(FNum, true, FrstNum.transform.position.x - 120, FrstNum.transform.position.y - 250);
 
         InstatiateCircle(FrstNum.transform.position.x, GameObject.Find("Circle" + (NumOfCircles - 1)).transform.position.y - 50);
         InstantiateText(SecNum.text);
-        GetLcm(SNum, false, FrstNum.transform.position.x-120, GameObject.Find("Circle" + (NumOfCircles - 1)).transform.position.y-150);
+        GetLcm(SNum, false, FrstNum.transform.position.x - 120, GameObject.Find("Circle" + (NumOfCircles - 1)).transform.position.y - 150);
         GetAns();
 
     }
@@ -61,19 +60,19 @@ public class LcmScript : MonoBehaviour
     {
         GameObject newTextObject = new GameObject("DynamicText");
         TextMeshProUGUI newTextMesh = newTextObject.AddComponent<TextMeshProUGUI>();
-        newTextMesh.transform.SetParent(GameObject.Find("Panel").transform);
+        newTextMesh.transform.SetParent(GameObject.Find("ScrolPanel").transform);
 
         newTextMesh.text = txt;
         newTextMesh.fontSize = 52;
         newTextMesh.color = Color.white;
-        newTextMesh.transform.position = new Vector3(GameObject.Find("Circle" + (NumOfCircles-1)).transform.position.x+70, GameObject.Find("Circle" + (NumOfCircles - 1)).transform.position.y,newTextMesh.transform.position.z);
+        newTextMesh.transform.position = new Vector3(GameObject.Find("Circle" + (NumOfCircles - 1)).transform.position.x + 70, GameObject.Find("Circle" + (NumOfCircles - 1)).transform.position.y, newTextMesh.transform.position.z);
         return newTextMesh;
     }
-    public void InstatiateCircle( float XAxis,float YAxis)
+    public void InstatiateCircle(float XAxis, float YAxis)
     {
         GameObject newCircle = Instantiate(Circle);
         newCircle.SetActive(true);
-        newCircle.transform.SetParent(GameObject.Find("Panel").transform);
+        newCircle.transform.SetParent(GameObject.Find("ScrolPanel").transform);
         newCircle.name = "Circle" + NumOfCircles;
         newCircle.transform.position = new Vector3(XAxis, YAxis, newCircle.transform.position.z);
         NumOfCircles++; // Increment after instantiation
@@ -83,18 +82,19 @@ public class LcmScript : MonoBehaviour
     {
         FirstNumList.Sort();
         SecNumList.Sort();
-        int FirstArrCounter = 0;    
+        int FirstArrCounter = 0;
         int SecArrCounter = 0;
-        while (FirstArrCounter<FirstNumList.Count || SecArrCounter < SecNumList.Count)
+        while (FirstArrCounter < FirstNumList.Count || SecArrCounter < SecNumList.Count)
         {
             InstantiateSquare();
-            TextMeshProUGUI newTextMesh ;
-            if (SecArrCounter == SecNumList.Count||(FirstArrCounter < FirstNumList.Count && FirstNumList[FirstArrCounter] < SecNumList[SecArrCounter])){
+            TextMeshProUGUI newTextMesh;
+            if (SecArrCounter == SecNumList.Count || (FirstArrCounter < FirstNumList.Count && FirstNumList[FirstArrCounter] < SecNumList[SecArrCounter]))
+            {
                 newTextMesh = InstantiateText((FirstNumList[FirstArrCounter]).ToString());
                 FirstArrCounter++;
 
             }
-            else if (FirstArrCounter == FirstNumList.Count||(SecArrCounter < SecNumList.Count  && FirstNumList[FirstArrCounter] > SecNumList[SecArrCounter]))
+            else if (FirstArrCounter == FirstNumList.Count || (SecArrCounter < SecNumList.Count && FirstNumList[FirstArrCounter] > SecNumList[SecArrCounter]))
             {
                 newTextMesh = InstantiateText(SecNumList[SecArrCounter].ToString());
                 SecArrCounter++;
@@ -103,18 +103,18 @@ public class LcmScript : MonoBehaviour
             {
                 newTextMesh = InstantiateText(FirstNumList[FirstArrCounter].ToString());
                 TextMeshProUGUI newTextMesh2 = InstantiateText((SecNumList[SecArrCounter]).ToString());
-                newTextMesh2.transform.SetParent(GameObject.Find("Square" + (NumOfSquares-1)).transform);
+                newTextMesh2.transform.SetParent(GameObject.Find("Square" + (NumOfSquares - 1)).transform);
                 newTextMesh2.color = Color.black;
 
-                newTextMesh2.transform.position = new Vector3(GameObject.Find("Square" + (NumOfSquares - 1)).transform.position.x +50, GameObject.Find("Square" + (NumOfSquares - 1)).transform.position.y -50, newTextMesh.transform.position.z);
+                newTextMesh2.transform.position = new Vector3(GameObject.Find("Square" + (NumOfSquares - 1)).transform.position.x + 80, GameObject.Find("Square" + (NumOfSquares - 1)).transform.position.y - 50, newTextMesh.transform.position.z);
                 FirstArrCounter++;
                 SecArrCounter++;
 
             }
 
-            newTextMesh.transform.SetParent(GameObject.Find("Square" + (NumOfSquares-1)).transform);
+            newTextMesh.transform.SetParent(GameObject.Find("Square" + (NumOfSquares - 1)).transform);
             newTextMesh.color = Color.black;
-            newTextMesh.transform.position = new Vector3(GameObject.Find("Square" + (NumOfSquares - 1)).transform.position.x+50, GameObject.Find("Square" + (NumOfSquares - 1)).transform.position.y+50, newTextMesh.transform.position.z);
+            newTextMesh.transform.position = new Vector3(GameObject.Find("Square" + (NumOfSquares - 1)).transform.position.x + 80, GameObject.Find("Square" + (NumOfSquares - 1)).transform.position.y + 50, newTextMesh.transform.position.z);
         }
     }
 
@@ -125,7 +125,7 @@ public class LcmScript : MonoBehaviour
         {
             GameObject LeftLine = Instantiate(Line);
             LeftLine.SetActive(true);
-            LeftLine.transform.SetParent(GameObject.Find("Panel").transform);
+            LeftLine.transform.SetParent(GameObject.Find("ScrolPanel").transform);
             LeftLine.name = "LeftLine" + NumOfLines;
             LeftLine.transform.Rotate(Vector3.forward, -30f);
             LeftLine.transform.position = new Vector3(
@@ -136,7 +136,7 @@ public class LcmScript : MonoBehaviour
 
             GameObject rightLine = Instantiate(Line);
             rightLine.SetActive(true);
-            rightLine.transform.SetParent(GameObject.Find("Panel").transform);
+            rightLine.transform.SetParent(GameObject.Find("ScrolPanel").transform);
             rightLine.name = "RightLine" + NumOfLines;
             rightLine.transform.position = new Vector3(
                 circle.transform.position.x + 50f,
@@ -155,7 +155,7 @@ public class LcmScript : MonoBehaviour
     {
         GameObject newSquare = Instantiate(Square);
         newSquare.name = "Square" + NumOfSquares;
-        newSquare.transform.SetParent(GameObject.Find("Panel").transform);
+        newSquare.transform.SetParent(GameObject.Find("ScrolPanel").transform);
         if (NumOfSquares == 0)
         {
             GameObject circle = GameObject.Find("Circle" + (NumOfCircles - 1)); // Find the last created circle
@@ -169,7 +169,7 @@ public class LcmScript : MonoBehaviour
         {
 
             GameObject Square = GameObject.Find("Square" + (NumOfSquares - 1)); // Find the last created circle
-            if(Square.transform.position.x + 200 + Square.GetComponent<RectTransform>().rect.width < Screen.width)
+            if (Square.transform.position.x + 200 + Square.GetComponent<RectTransform>().rect.width < Screen.width)
             {
                 newSquare.transform.position = new Vector3(
                 Square.transform.position.x + 200,
@@ -181,14 +181,14 @@ public class LcmScript : MonoBehaviour
             {
                 newSquare.transform.position = new Vector3(
                 GameObject.Find("Circle0").transform.position.x,
-                Square.transform.position.y-Square.GetComponent<RectTransform>().rect.height-200,
+                Square.transform.position.y - Square.GetComponent<RectTransform>().rect.height - 200,
                 newSquare.transform.position.z
                 );
             }
         }
         NumOfSquares++;
     }
-    public void GetLcm(float Num,bool isFirstNum,float XAxis,float YAxis)
+    public void GetLcm(float Num, bool isFirstNum, float XAxis, float YAxis)
     {
         if (Num <= 2)
         {
@@ -197,10 +197,10 @@ public class LcmScript : MonoBehaviour
         }
         else if (Num % 2 == 0)
         {
-            InstatiateCircle(XAxis,YAxis);
+            InstatiateCircle(XAxis, YAxis);
             InstantiateText("2");
             DestroyLine();
-            InstatiateCircle(XAxis+240, YAxis);
+            InstatiateCircle(XAxis + 240, YAxis);
             InstantiateText((Num / 2).ToString());
             YAxis -= 150;
             if (isFirstNum)
@@ -211,7 +211,7 @@ public class LcmScript : MonoBehaviour
             {
                 SecNumList.Add(2);
             }
-            GetLcm(Num / 2, isFirstNum,XAxis+140,YAxis);
+            GetLcm(Num / 2, isFirstNum, XAxis + 140, YAxis);
         }
         else
         {
@@ -224,11 +224,11 @@ public class LcmScript : MonoBehaviour
                 }
                 if (Num % i == 0)
                 {
-                    InstatiateCircle(XAxis-50, YAxis);
+                    InstatiateCircle(XAxis - 50, YAxis);
                     InstantiateText(i.ToString());
                     if (i == 3)
                         DestroyLine();
-                    InstatiateCircle(XAxis+250, YAxis);
+                    InstatiateCircle(XAxis + 250, YAxis);
 
                     InstantiateText((Num / i).ToString());
                     YAxis -= 150;
